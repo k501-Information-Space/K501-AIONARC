@@ -1,0 +1,52 @@
+{
+  "$schema": "../schemas/system-specification.schema.json",
+  "schema_id": "K501_INTEGRATED_SYSTEM_SPECIFICATION/3.5.0",
+  "specification_id": "K501-INTEGRATED-SYSTEM-3.5.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "version": "3.5.0",
+  "status": "OWNER_DECLARED_CANONICAL_LOCAL; LOCAL_GATES_PASS; GITHUB_AND_ZENODO_GATES_OPEN",
+  "release_intent": "STABLE",
+  "owner_rights_attestation": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+  "aggregate_file_license_map": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json",
+  "aggregate_license_policy": {
+    "K501-authored-software-and-code": "MIT",
+    "K501-authored-documentation-and-descriptive-material": "CC-BY-4.0"
+  },
+  "public_release_status": "NOT_PUBLISHED",
+  "components": [
+    {
+      "project_id": "K501-AIONARC-PIPELINE",
+      "component_version": "3.0.0-alpha.1",
+      "role": "structural_memory_pipeline",
+      "contract": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/MEMORY_CONTRACT_V1.0.md",
+      "mapping_profile": "QH256-K501-AIONARC-MEMORY-V3A1"
+    },
+    {
+      "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+      "component_version": "0.1.0-alpha.1",
+      "role": "controlled_run_and_evidence_recorder",
+      "contract": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md",
+      "protocol_status": "PROPOSED_REFERENCE_NOT_RATIFIED"
+    }
+  ],
+  "integration_contract": "specifications/INTEGRATION_CONTRACT_v1.0.json",
+  "mapping_profile": "specifications/QH256_MAPPING_PROFILE_v3.5.json",
+  "acceptance_profile": [
+    "component_manifests_pass",
+    "strict_build_pass",
+    "aionarc_full_test_suite_pass",
+    "evidence_runtime_60_assertion_integration_pass",
+    "component_binary_identity_pass",
+    "aggregate_schema_manifest_index_and_checksums_pass"
+  ],
+  "explicit_exclusions": [
+    "independent_reproducible_build_gate",
+    "public_repository_or_release_publication",
+    "zenodo_upload_or_doi_assignment",
+    "semantic_inference_or_embedding_retrieval",
+    "evidence_status_to_qh256_mapping"
+  ],
+  "canonicality": "CANONICAL_LOCAL_BY_OWNER_DECLARATION; PUBLIC_GITHUB_CANONICALITY_NOT_ESTABLISHED",
+  "owner_attestation": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+  "file_license_map": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json"
+}

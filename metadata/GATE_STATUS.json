@@ -1,0 +1,95 @@
+{
+  "schema_id": "K501_DYNAMIC_GATE_STATUS/1.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "version": "3.5.0",
+  "evaluated_at": "2026-10-26T20:50:15Z",
+  "gates": {
+    "SRC-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793045289_20261026T200809Z_k501-v350-integrated-source-import",
+        "1793045823_20261026T201703Z_k501-v350-source-archive-binding"
+      ],
+      "note": "Archive sidecars, archive-to-payload file parity, and component wrapper/work tree comparison passed for the declared source hashes."
+    },
+    "BLD-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793045778_20261026T201618Z_k501-v350-integrated-build-and-test"
+      ],
+      "note": "Both components clean-built in the aggregate tree with recorded toolchain and output identities."
+    },
+    "TST-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793045778_20261026T201618Z_k501-v350-integrated-build-and-test"
+      ],
+      "note": "AIONARC full suite, Proof/Evidence integration suite, and recorder self-test passed in this local run."
+    },
+    "INT-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793045778_20261026T201618Z_k501-v350-integrated-build-and-test"
+      ],
+      "note": "Recorder suite passed 60 assertions using the exact freshly built same-tree AIONARC executable."
+    },
+    "SCH-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify"
+      ],
+      "note": "Final make verify passed: 56 JSON documents, full 296-path license coverage, component checksums, 293 manifest entries, 291 Index entries, root checksums and both binary identities."
+    },
+    "RIGHTS-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "metadata/RIGHTSHOLDER_ATTESTATION.json",
+        "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json"
+      ],
+      "note": "Owner-ratified MIT/CC-BY-4.0 scope; complete 296-path map has zero unresolved paths. Upstream/QH256 notices remain scoped; author identity and chain of title were not independently verified."
+    },
+    "HOST-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793047801_20261026T205001Z_k501-v350-host-acceptance"
+      ],
+      "note": "Declared local Debian 13 Linux x86-64 host acceptance passed: documented init/scan/verify/query, overlap rejection, and recorder child capture. Scope is this host and these binary hashes only."
+    },
+    "REPRO-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "1793047805_20261026T205005Z_k501-v350-reproducibility"
+      ],
+      "note": "Two independent clean copies of each pinned component source tree built with the same host/toolchain. Both outputs match each other and the aggregate binaries; this is same-host reproducibility, not cross-host validation."
+    },
+    "OWNER-01": {
+      "status": "PASS",
+      "evidence_ids": [
+        "metadata/RIGHTSHOLDER_ATTESTATION.json",
+        "1793046600"
+      ],
+      "note": "Direct owner GO ratifies the v3.5.0 local aggregate as canonical and authorizes mapped-scope licensing; exact reviewed scope is this aggregate and its current local assets. Does not publish externally."
+    },
+    "GITHUB-01": {
+      "status": "OPEN",
+      "evidence_ids": [
+        "validation/GITHUB_TARGET_CHECK.md"
+      ],
+      "note": "No canonical aggregate repository target supplied; both proposed component repository lookups returned 404. No commit/tag/release or remote asset reconciliation exists."
+    },
+    "ZENODO-01": {
+      "status": "OPEN",
+      "evidence_ids": [
+        "zenodo/METADATA_DRAFT.json"
+      ],
+      "note": "Draft remains unapproved and unpublished; no deposit or DOI reconciliation."
+    }
+  },
+  "profiles": {
+    "LOCAL_TECHNICAL_CANDIDATE": "READY_FOR_REVIEW",
+    "OWNER_DECLARED_LOCAL_CANONICAL": "READY_FOR_REVIEW",
+    "GITHUB_PUBLICATION_PREFLIGHT": "READY_FOR_REVIEW",
+    "STABLE_GITHUB_RELEASE": "BLOCKED",
+    "ZENODO_PUBLICATION": "BLOCKED"
+  }
+}

@@ -1,0 +1,11 @@
+frame_id=1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify
+process_status=EXIT_ZERO
+exit_code=0
+start_epoch_unix=1793047930
+end_epoch_unix=1793047937
+elapsed_seconds=7
+start_utc=2026-10-26T20:52:10+00:00
+end_utc=2026-10-26T20:52:17+00:00
+start_europe_berlin=2026-10-26T21:52:10+01:00
+end_europe_berlin=2026-10-26T21:52:17+01:00
+interpretation=PROCESS_EXIT_ONLY_NOT_GATE_ACCEPTANCE

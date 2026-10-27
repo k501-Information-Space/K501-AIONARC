@@ -1,0 +1,2378 @@
+{
+  "schema_id": "K501_AGGREGATE_FILE_LICENSE_MAP/1.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "artifact_version": "3.5.0",
+  "attestation": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+  "default_rule": "NOASSERTION; every distributable path is explicitly classified; preserve upstream notices and terms.",
+  "entry_count": 296,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "CITATION.cff",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "Index.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "Index.md",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "LICENSE",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard license text/reference; no ownership claim."
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard license text/reference; no ownership claim."
+    },
+    {
+      "path": "LICENSES/RIGHTSHOLDER_ATTESTATION.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "MANIFEST.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "Makefile",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "NOTICE",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "README.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "SHA256SUMS.txt.sha256",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "STATUS.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "VERSION",
+      "kind": "version_fact",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Version identifier."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/.gitignore",
+      "kind": "software_configuration",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as software/build configuration by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/Gateway.json",
+      "kind": "descriptive_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as authored descriptive metadata by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/Gateway.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/Index.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/Index.md",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSE",
+      "kind": "license_scope_document",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Authored scope document; not a blanket license grant."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/CC-BY-4.0.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard CC-BY-4.0 text; no ownership claim."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/FILE_LICENSE_MAP.csv",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/FILE_LICENSE_MAP.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/K501_LICENSE_POLICY_V1.0.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/LICENSE_REVIEW_CHECKLIST.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/LICENSE_TRANSITION_NOTICE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/MIT.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard MIT text; no ownership claim."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/RIGHTSHOLDER_DECLARATION.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSES/THIRD_PARTY_NOTICES.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSE_SCOPE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/LICENSE_STATUS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/MANIFEST.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/NOTICE",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/README.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/SHA256SUMS.txt",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/SHA256SUMS.txt.sha256",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/docs/OPERATOR_MANUAL.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/docs/PROJECT_BOUNDARY.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/frames/FRAME_000_BOOTSTRAP.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/frames/FRAME_000_BOOTSTRAP.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/frames/FRAME_001_PACKAGE_IMPORT.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/frames/FRAME_001_PACKAGE_IMPORT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/metadata/release-manifest.template.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/metadata/repository.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/metadata/source-archive-records.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CHANGELOG.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CITATION.cff",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CODE_OF_CONDUCT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSE",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard NOASSERTION text; no ownership claim."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/CC-BY-4.0-METADATA.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/CC-BY-4.0.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard CC-BY-4.0 text; no ownership claim."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/FILE_LICENSE_MAP.csv",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/FILE_LICENSE_MAP.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/K501_INFORMATION_SPACE_LICENSE_POLICY_V1.0.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/LICENSE_REVIEW_CHECKLIST.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/LICENSE_TRANSITION_NOTICE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/MIT.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard MIT text; no ownership claim."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/RIGHTSHOLDER_DECLARATION.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/THIRD_PARTY_NOTICES.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSE_STATUS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/Makefile",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/NOTICE",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/OPERATOR_QUICK_REFERENCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/README.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/SHA256SUMS.txt",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/TIME_ANCHOR.txt",
+      "kind": "factual_or_integrity_record",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Factual/integrity record; no blanket copyright license asserted."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/VERSION",
+      "kind": "factual_or_integrity_record",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Factual/integrity record; no blanket copyright license asserted."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/bin/k501-memory-linux-x86_64",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/ARCHITECTURE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/DATA_FORMATS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/DECISION_LOG.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/MEMORY_CONTRACT_V1.0.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/MODULE_CONTRACTS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_MANUAL.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_MANUAL_DE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_QUICK_REFERENCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/PROOF_BEFORE_STATE_CONTRACT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/QH256_MAPPING_PROFILE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/RELEASE_CHECKLIST.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SECURITY_AND_LIMITATIONS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SELF_REVIEW_REPORT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SOURCE_PROVENANCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SOURCE_REGISTER.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/STATUS_REGISTER.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/VALIDATION_REPORT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/examples/quickstart.sh",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/include/qh256.h",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/k501_memory.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/metadata/PACKAGE_METADATA.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/run.sh",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/scripts/build.sh",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/scripts/verify-package.sh",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/qh256.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/sha256.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/sha256.h",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/tests/fixtures/minimal-text.pdf",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/tests/test.sh",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/references/REFERENCES.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/releases/RELEASE_POLICY.md",
+      "kind": "documentation",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as authored release documentation by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/runs/run.schema.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-AIONARC-Pipeline/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/.gitignore",
+      "kind": "software_configuration",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as software/build configuration by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/Gateway.json",
+      "kind": "descriptive_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as authored descriptive metadata by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/Gateway.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/Index.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/Index.md",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSE",
+      "kind": "license_scope_document",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Authored scope document; not a blanket license grant."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/CC-BY-4.0.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard CC-BY-4.0 text; no ownership claim."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/FILE_LICENSE_MAP.csv",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/FILE_LICENSE_MAP.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/K501_LICENSE_POLICY_V1.0.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/LICENSE_REVIEW_CHECKLIST.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/LICENSE_TRANSITION_NOTICE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/MIT.txt",
+      "kind": "standard_license_text",
+      "spdx": "NOASSERTION",
+      "status": "PRESERVED_STANDARD_TEXT",
+      "basis": "PRESERVED_STANDARD_TEXT",
+      "scope_note": "Standard MIT text; no ownership claim."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/RIGHTSHOLDER_DECLARATION.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSES/THIRD_PARTY_NOTICES.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSE_SCOPE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/LICENSE_STATUS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/MANIFEST.json",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/NOTICE",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/README.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/SHA256SUMS.txt",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/SHA256SUMS.txt.sha256",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/docs/OPERATOR_MANUAL.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/docs/PROJECT_BOUNDARY.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/frames/FRAME_000_BOOTSTRAP.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/frames/FRAME_000_BOOTSTRAP.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/frames/FRAME_001_PACKAGE_IMPORT.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/frames/FRAME_001_PACKAGE_IMPORT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/metadata/release-manifest.template.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/metadata/repository.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/metadata/source-archive-records.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/BUILD_VALIDATION_REPORT.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/CHANGELOG.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/LICENSE_STATUS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/Makefile",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/README.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/SHA256SUMS.txt",
+      "kind": "integrity_or_index_record",
+      "spdx": "NOASSERTION",
+      "status": "INTEGRITY_METADATA",
+      "basis": "INTEGRITY_METADATA",
+      "scope_note": "Generated index or integrity data; no license assertion over factual digests."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/TIME_ANCHOR.txt",
+      "kind": "factual_or_integrity_record",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Factual/integrity record; no blanket copyright license asserted."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/VERSION",
+      "kind": "factual_or_integrity_record",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Factual/integrity record; no blanket copyright license asserted."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/bin/k501-proof-evidence-linux-x86_64",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/ARCHITECTURE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/EVIDENCE_PROTOCOL_CONFORMANCE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/K501_INFORMATION_SPACE.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/OPERATIONS.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/qh256.h",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/sha256.h",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_RECORD.schema.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/k501_proof_evidence.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/qh256.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/sha256.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/tests/test_runtime.c",
+      "kind": "software_or_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; existing file-level notices preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/references/REFERENCES.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/releases/RELEASE_POLICY.md",
+      "kind": "documentation",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Classified as authored release documentation by the owner-ratified policy."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/runs/run.schema.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "components/K501-Proof-Evidence-Runtime/specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "kind": "documentation_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; third-party exclusions preserved."
+    },
+    {
+      "path": "dist/linux-x86_64/k501-memory",
+      "kind": "software_binary",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Executable built from owner-declared MIT software sources."
+    },
+    {
+      "path": "dist/linux-x86_64/k501-proof-evidence",
+      "kind": "software_binary",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Executable built from owner-declared MIT software sources."
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "docs/OPERATOR_MANUAL.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "docs/TECHNICAL_DESCRIPTION.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "docs/VALIDATION_AND_RELEASE_GATES.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "docs/history/PREBUILD_DYNAMIC_GATE_AUDIT_2026-10-26.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045289_20261026T200809Z_k501-v350-integrated-source-import/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045778_20261026T201618Z_k501-v350-integrated-build-and-test/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793045823_20261026T201703Z_k501-v350-source-archive-binding/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046054_20261026T202054Z_k501-v350-final-integrity-refresh/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793046058_20261026T202058Z_k501-v350-final-make-verify/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047801_20261026T205001Z_k501-v350-host-acceptance/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047805_20261026T205005Z_k501-v350-reproducibility/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047930_20261026T205210Z_k501-v350-final-owner-ratified-verify/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/COMMAND.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/FRAME.json",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/GIT_POST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/GIT_PRE.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/HOST.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/RESULT.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/SHA256SUMS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/STATUS.txt",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "evidence/runs/1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify/TRANSCRIPT.log",
+      "kind": "controlled_run_evidence",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_EVIDENCE",
+      "basis": "FACTUAL_EVIDENCE",
+      "scope_note": "Run transcript/metadata/checksums; retain evidence scope and notices."
+    },
+    {
+      "path": "metadata/ARTIFACT_IDENTITY.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "metadata/GATE_STATUS.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/aggregate-file-license-map.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/aggregate-manifest.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/artifact-identity.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/evidence-record.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/gate-status.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/index.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/integration-contract.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/mapping-profile.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/owner-attestation.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/release-gate-profile.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/system-specification.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "schemas/zenodo-metadata-draft.schema.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "scripts/build_aggregate_license_map.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/create_candidate_archive.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/evaluate_gates.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/host_acceptance.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/refresh_integrity.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/reproducibility_check.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/validate_contracts.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/verify_candidate_archive.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "scripts/verify_integrated_artifact.py",
+      "kind": "software_or_build_code",
+      "spdx": "MIT",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600."
+    },
+    {
+      "path": "specifications/INTEGRATION_CONTRACT_v1.0.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/INTEGRATION_CONTRACT_v1.0.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/QH256_MAPPING_PROFILE_v3.5.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/QH256_MAPPING_PROFILE_v3.5.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/RELEASE_GATE_PROFILE_v3.5.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/SYSTEM_SPECIFICATION_v3.5.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "specifications/SYSTEM_SPECIFICATION_v3.5.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "validation/GITHUB_TARGET_CHECK.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "validation/VALIDATION_REPORT.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "zenodo/DESCRIPTION_DRAFT.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "zenodo/MANUSCRIPT_DRAFT.md",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "zenodo/METADATA_DRAFT.json",
+      "kind": "documentation_specification_or_metadata",
+      "spdx": "CC-BY-4.0",
+      "status": "OWNER_DECLARED",
+      "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+      "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    }
+  ]
+}

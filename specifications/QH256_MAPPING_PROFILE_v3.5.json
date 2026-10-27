@@ -1,0 +1,20 @@
+{
+  "$schema": "../schemas/mapping-profile.schema.json",
+  "schema_id": "K501_QH256_MAPPING_PROFILE/3.5.0",
+  "profile_id": "K501-INTEGRATED-QH256-MAPPING-3.5.0",
+  "status": "AGGREGATE_BOUNDARY_PROFILE",
+  "qh256_core": "QH256 v2.0 unchanged",
+  "application_profile": "QH256-K501-AIONARC-MEMORY-V3A1",
+  "mapping_source": "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/QH256_MAPPING_PROFILE.md",
+  "assigned_cells": "0-63 per source profile",
+  "reserved_cells": "64-127 remain UNKNOWN/reserved",
+  "evidence_runtime_outcome_mapping": "NOT_DEFINED",
+  "serialization_bytes": 32,
+  "states": {
+    "UNKNOWN": "00",
+    "FALSE": "01",
+    "TRUE": "10",
+    "GUARD": "11"
+  },
+  "compatibility": "NO_CORE_OR_COMPONENT_MAPPING_CHANGE"
+}

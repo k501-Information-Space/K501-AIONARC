@@ -1,0 +1,30 @@
+{
+  "package_id": "K501-AIONARC-MEMORY-RUNTIME-C",
+  "version": "3.0.0-alpha.1",
+  "time_anchor_unix": 1792121537,
+  "status": "NON_CANONICAL_CANDIDATE",
+  "memory_contract": "docs/MEMORY_CONTRACT_V1.0.md",
+  "mapping_profile": "QH256-K501-AIONARC-MEMORY-V3A1",
+  "qh256_core": "QH256 v2.0 unchanged",
+  "platform_qualification": "Linux x86-64 baseline; direct libc.so.6; GLIBC symbols through 2.34 on shipped binary",
+  "release_status": "NOT_RELEASE_APPROVED",
+  "operator_test_status": "PENDING_USER_CONTROLLED_UNPACK_AND_TESTS",
+  "gates": {
+    "G5-A": "OPEN_UNTIL_ALPHA1_REGRESSION_EVIDENCE",
+    "G5-B": "PASS_FOR_QUALIFIED_SCOPE",
+    "G5-C": "LICENSE_FRAMEWORK_PREPARED; RIGHTS_HOLDER_SCOPE_REVIEW_REQUIRED",
+    "G7": "OPEN_NOT_CLAIMED"
+  },
+  "no_publication_or_repository_mutation": true,
+  "license_map": "LICENSES/FILE_LICENSE_MAP.md",
+  "asset_license_classes": {
+    "runtime_code": "MIT",
+    "documentation": "CC-BY-4.0",
+    "upstream": "own_upstream_license_or_exclude",
+    "user_corpus_private_evidence": "NO_RELICENSE_NO_PUBLICATION"
+  },
+  "package_local_build_test_status": "PASS_AFTER_LAST_SOURCE_AND_TEST_EDITS",
+  "validation_report": "docs/VALIDATION_REPORT.md",
+  "self_review_report": "docs/SELF_REVIEW_REPORT.md",
+  "license_framework": "Established per-file MIT / CC-BY-4.0 scheme; not a new omnibus license; G5-C open pending rights-holder scope review"
+}

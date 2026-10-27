@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite this owner-declared canonical local aggregate by version and archive SHA-256. GitHub and Zenodo publication status remains separate."
+title: "K501 AIONARC Integrated Pipeline & Proof Runtime"
+version: "3.5.0"
+authors:
+  - family-names: Miller
+    given-names: Patrick Robert
+    alias: IInkognit0
+    affiliation: "K501 Information Space / K501-AIONARC"
+abstract: "Owner-declared canonical local integration package combining AIONARC structural memory pipeline and controlled proof/evidence runtime. K501-authored code is MIT and documentation is CC BY 4.0; public repository and Zenodo publication remain separate open gates."

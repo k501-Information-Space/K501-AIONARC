@@ -1,0 +1,19 @@
+{
+  "frame_id": "1793045778_20261026T201618Z_k501-v350-integrated-build-and-test",
+  "protocol": "K501-CONTROLLED-RUN-0.1",
+  "status_at_creation": "RUNNING",
+  "area": "pipeline",
+  "slug": "k501-v350-integrated-build-and-test",
+  "workspace_root": "/home/hirn/K501_Information_Space",
+  "working_directory": "/home/hirn/K501_Information_Space",
+  "host": "hirn",
+  "time_source": "host_system_clock",
+  "start_epoch_unix": 1793045778,
+  "start_utc": "2026-10-26T20:16:18+00:00",
+  "start_europe_berlin": "2026-10-26T21:16:18+01:00",
+  "command_argv": [
+    "bash",
+    "-c",
+    "set -eu; artifact=work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable; diff -qr work/K501-AIONARC-Pipeline \"$artifact/components/K501-AIONARC-Pipeline\"; diff -qr work/K501-Proof-Evidence-Runtime \"$artifact/components/K501-Proof-Evidence-Runtime\"; cd \"$artifact\"; make clean; make all; make test; python3 scripts/validate_contracts.py; python3 scripts/evaluate_gates.py; sha256sum dist/linux-x86_64/k501-memory dist/linux-x86_64/k501-proof-evidence"
+  ]
+}

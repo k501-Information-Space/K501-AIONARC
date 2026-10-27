@@ -1,0 +1,165 @@
+make -C "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1" clean all
+make[1]: Entering directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+rm -rf build
+cc -std=c11 -Iinclude -Isrc  -O2 -Wall -Wextra -Wpedantic -Wno-misleading-indentation -Werror -march=x86-64 -mtune=generic k501_memory.c src/qh256.c src/sha256.c  -o build/k501-memory
+make[1]: Leaving directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+make -C "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C" clean all
+make[1]: Entering directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C'
+rm -f build/k501-proof-evidence build/test-runtime
+cc -Iinclude -O2 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Werror -std=c11 src/k501_proof_evidence.c src/qh256.c src/sha256.c  -o build/k501-proof-evidence
+make[1]: Leaving directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C'
+mkdir -p "dist/linux-x86_64"
+cp "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/build/k501-memory" "dist/linux-x86_64/k501-memory"
+cp "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/build/k501-proof-evidence" "dist/linux-x86_64/k501-proof-evidence"
+make -C "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1" qh256-test sha256-test mapping-test test
+make[1]: Entering directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+build/k501-memory qh256-test
+QH256 CORE TEST PASS
+checked: UNKNOWN/FALSE/TRUE/GUARD representation and MERGE_K TRUE+FALSE=GUARD
+build/k501-memory sha256-test
+SHA256 TEST PASS
+checked: empty string, abc known vector, incremental update
+build/k501-memory mapping-test
+QH256 MAPPING PROFILE V3A1 TEST PASS
+checked: cells 21, 22, 23, 25 across capture and failure statuses
+bash tests/test.sh "/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/build/k501-memory"
+K501 V3A1 TEST SUITE: PASS
+checks: QH256 core; SHA-256 known vectors; mapping-profile truth table; initial and subsequent frames; proof-before-state; index/status reconstruction; empty-text roundtrip; UTF-8/NUL distinction; file limit; PDF adapter available/unavailable; exact lexical retrieval; trace/history/diff; source parity and drift; tamper/repeated-ID/branch/legacy-schema refusal; both overlap directions
+make[1]: Leaving directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+make -C "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C" test RUNTIME_BIN="/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/build/k501-memory"
+make[1]: Entering directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C'
+cc -Iinclude -O2 -Wall -Wextra -Wpedantic -Wconversion -Wshadow -Werror -std=c11 tests/test_runtime.c src/qh256.c src/sha256.c  -o build/test-runtime
+build/test-runtime build/k501-proof-evidence /home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/build/k501-memory
+TEST_RESULT=PASS ASSERTIONS=60 FAILURES=0
+TEST_WORKSPACE=/tmp/k501-proof-evidence-test-lxRQIB
+make[1]: Leaving directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C'
+"components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/build/k501-proof-evidence" self-test
+SELF_TEST=PASS
+SHA256 known vectors: PASS
+QH256 v2 structural, MERGE_K and serialization tests: PASS
+Evidence-status mapping into QH256: NOT_DEFINED / NOT_PERFORMED
+python3 scripts/validate_contracts.py
+SCHEMA_PASS metadata/ARTIFACT_IDENTITY.json -> schemas/artifact-identity.schema.json
+SCHEMA_PASS metadata/RIGHTSHOLDER_ATTESTATION.json -> schemas/owner-attestation.schema.json
+SCHEMA_PASS LICENSES/AGGREGATE_FILE_LICENSE_MAP.json -> schemas/aggregate-file-license-map.schema.json
+SCHEMA_PASS specifications/SYSTEM_SPECIFICATION_v3.5.json -> schemas/system-specification.schema.json
+SCHEMA_PASS specifications/INTEGRATION_CONTRACT_v1.0.json -> schemas/integration-contract.schema.json
+SCHEMA_PASS specifications/QH256_MAPPING_PROFILE_v3.5.json -> schemas/mapping-profile.schema.json
+SCHEMA_PASS metadata/GATE_STATUS.json -> schemas/gate-status.schema.json
+SCHEMA_PASS zenodo/METADATA_DRAFT.json -> schemas/zenodo-metadata-draft.schema.json
+SCHEMA_PASS specifications/RELEASE_GATE_PROFILE_v3.5.json -> schemas/release-gate-profile.schema.json
+SCHEMA_PASS MANIFEST.json -> schemas/aggregate-manifest.schema.json
+SCHEMA_PASS Index.json -> schemas/index.schema.json
+LICENSE_MAP_COVERAGE_PASS files=287
+JSON_PARSE_PASS files=55
+GATE_PROFILE_PASS gates=11 profiles=5
+CONTRACT_VALIDATION=PASS
+bash "components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/scripts/verify-package.sh"
+./CHANGELOG.md: OK
+./CITATION.cff: OK
+./CODE_OF_CONDUCT.md: OK
+./LICENSE: OK
+./LICENSES/CC-BY-4.0-METADATA.md: OK
+./LICENSES/CC-BY-4.0.txt: OK
+./LICENSES/FILE_LICENSE_MAP.csv: OK
+./LICENSES/FILE_LICENSE_MAP.md: OK
+./LICENSES/K501_INFORMATION_SPACE_LICENSE_POLICY_V1.0.md: OK
+./LICENSES/LICENSE_REVIEW_CHECKLIST.md: OK
+./LICENSES/LICENSE_TRANSITION_NOTICE.md: OK
+./LICENSES/MIT.txt: OK
+./LICENSES/RIGHTSHOLDER_DECLARATION.md: OK
+./LICENSES/THIRD_PARTY_NOTICES.md: OK
+./LICENSE_STATUS.md: OK
+./Makefile: OK
+./NOTICE: OK
+./OPERATOR_QUICK_REFERENCE.md: OK
+./README.md: OK
+./TIME_ANCHOR.txt: OK
+./VERSION: OK
+./bin/k501-memory-linux-x86_64: OK
+./docs/ARCHITECTURE.md: OK
+./docs/DATA_FORMATS.md: OK
+./docs/DECISION_LOG.md: OK
+./docs/MEMORY_CONTRACT_V1.0.md: OK
+./docs/MODULE_CONTRACTS.md: OK
+./docs/OPERATOR_MANUAL.md: OK
+./docs/OPERATOR_MANUAL_DE.md: OK
+./docs/OPERATOR_QUICK_REFERENCE.md: OK
+./docs/PROOF_BEFORE_STATE_CONTRACT.md: OK
+./docs/QH256_MAPPING_PROFILE.md: OK
+./docs/RELEASE_CHECKLIST.md: OK
+./docs/SECURITY_AND_LIMITATIONS.md: OK
+./docs/SELF_REVIEW_REPORT.md: OK
+./docs/SOURCE_PROVENANCE.md: OK
+./docs/SOURCE_REGISTER.md: OK
+./docs/STATUS_REGISTER.md: OK
+./docs/VALIDATION_REPORT.md: OK
+./examples/quickstart.sh: OK
+./include/qh256.h: OK
+./k501_memory.c: OK
+./metadata/PACKAGE_METADATA.json: OK
+./run.sh: OK
+./scripts/build.sh: OK
+./scripts/verify-package.sh: OK
+./src/qh256.c: OK
+./src/sha256.c: OK
+./src/sha256.h: OK
+./tests/fixtures/minimal-text.pdf: OK
+./tests/test.sh: OK
+make[1]: Entering directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+bash tests/test.sh "/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/build/k501-memory"
+K501 V3A1 TEST SUITE: PASS
+checks: QH256 core; SHA-256 known vectors; mapping-profile truth table; initial and subsequent frames; proof-before-state; index/status reconstruction; empty-text roundtrip; UTF-8/NUL distinction; file limit; PDF adapter available/unavailable; exact lexical retrieval; trace/history/diff; source parity and drift; tamper/repeated-ID/branch/legacy-schema refusal; both overlap directions
+make[1]: Leaving directory '/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable/components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1'
+(cd "components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C" && sha256sum -c SHA256SUMS.txt)
+BUILD_VALIDATION_REPORT.md: OK
+CHANGELOG.md: OK
+LICENSE_STATUS.md: OK
+Makefile: OK
+README.md: OK
+TIME_ANCHOR.txt: OK
+VERSION: OK
+bin/k501-proof-evidence-linux-x86_64: OK
+docs/ARCHITECTURE.md: OK
+docs/EVIDENCE_PROTOCOL_CONFORMANCE.md: OK
+docs/K501_INFORMATION_SPACE.md: OK
+docs/OPERATIONS.md: OK
+include/qh256.h: OK
+include/sha256.h: OK
+reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md: OK
+reference/EVIDENCE_RECORD.schema.json: OK
+src/k501_proof_evidence.c: OK
+src/qh256.c: OK
+src/sha256.c: OK
+tests/test_runtime.c: OK
+"components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C/build/k501-proof-evidence" self-test
+SELF_TEST=PASS
+SHA256 known vectors: PASS
+QH256 v2 structural, MERGE_K and serialization tests: PASS
+Evidence-status mapping into QH256: NOT_DEFINED / NOT_PERFORMED
+python3 scripts/verify_integrated_artifact.py
+SCHEMA_PASS metadata/ARTIFACT_IDENTITY.json -> schemas/artifact-identity.schema.json
+SCHEMA_PASS metadata/RIGHTSHOLDER_ATTESTATION.json -> schemas/owner-attestation.schema.json
+SCHEMA_PASS LICENSES/AGGREGATE_FILE_LICENSE_MAP.json -> schemas/aggregate-file-license-map.schema.json
+SCHEMA_PASS specifications/SYSTEM_SPECIFICATION_v3.5.json -> schemas/system-specification.schema.json
+SCHEMA_PASS specifications/INTEGRATION_CONTRACT_v1.0.json -> schemas/integration-contract.schema.json
+SCHEMA_PASS specifications/QH256_MAPPING_PROFILE_v3.5.json -> schemas/mapping-profile.schema.json
+SCHEMA_PASS metadata/GATE_STATUS.json -> schemas/gate-status.schema.json
+SCHEMA_PASS zenodo/METADATA_DRAFT.json -> schemas/zenodo-metadata-draft.schema.json
+SCHEMA_PASS specifications/RELEASE_GATE_PROFILE_v3.5.json -> schemas/release-gate-profile.schema.json
+SCHEMA_PASS MANIFEST.json -> schemas/aggregate-manifest.schema.json
+SCHEMA_PASS Index.json -> schemas/index.schema.json
+LICENSE_MAP_COVERAGE_PASS files=287
+JSON_PARSE_PASS files=55
+GATE_PROFILE_PASS gates=11 profiles=5
+CONTRACT_VALIDATION=PASS
+COMPONENT_SUMS_PASS components/K501-AIONARC-Pipeline
+COMPONENT_SUMS_PASS components/K501-Proof-Evidence-Runtime
+COMPONENT_SUMS_PASS components/K501-AIONARC-Pipeline/payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1
+COMPONENT_SUMS_PASS components/K501-Proof-Evidence-Runtime/payload/K501_Proof_Evidence_Runtime_Alpha1_C
+ROOT_CHECKSUMS_PASS
+ROOT_MANIFEST_PASS entries=284
+INDEX_PASS entries=282
+BINARY_IDENTITY_PASS dist/linux-x86_64/k501-memory sha256=838746254724916d60c53fd1de5cf112938271b991e127e9a29bab547d019ff2
+BINARY_IDENTITY_PASS dist/linux-x86_64/k501-proof-evidence sha256=e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880
+INTEGRATED_ARTIFACT_VERIFY=PASS

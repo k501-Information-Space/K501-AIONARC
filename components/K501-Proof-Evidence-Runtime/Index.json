@@ -1,0 +1,473 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_INDEX/0.2",
+  "index_id": "K501-PROOF-EVIDENCE-RUNTIME-INDEX-0.2",
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "status": "DERIVED_COMPLETE_LOCAL_PATH_INVENTORY",
+  "completeness": "COMPLETE_FOR_THIS_LOCAL_TREE",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "path_scope": "Every current non-.git file and directory node in the local repository, including payload and root integrity paths. The Index is not a content hash or semantic proof.",
+  "path_count": 62,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "kind": "file",
+      "role": "repository configuration",
+      "classification": "REPOSITORY_CONFIGURATION"
+    },
+    {
+      "path": "docs",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "docs/OPERATOR_MANUAL.md",
+      "kind": "file",
+      "role": "operator or project-boundary documentation",
+      "classification": "CONTROL_SURFACE_DOCUMENTATION"
+    },
+    {
+      "path": "docs/PROJECT_BOUNDARY.md",
+      "kind": "file",
+      "role": "operator or project-boundary documentation",
+      "classification": "CONTROL_SURFACE_DOCUMENTATION"
+    },
+    {
+      "path": "frames",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.json",
+      "kind": "file",
+      "role": "append-only structural frame record",
+      "classification": "STRUCTURAL_FRAME_RECORD"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.md",
+      "kind": "file",
+      "role": "append-only structural frame record",
+      "classification": "STRUCTURAL_FRAME_RECORD"
+    },
+    {
+      "path": "frames/FRAME_001_PACKAGE_IMPORT.json",
+      "kind": "file",
+      "role": "append-only structural frame record",
+      "classification": "STRUCTURAL_FRAME_RECORD"
+    },
+    {
+      "path": "frames/FRAME_001_PACKAGE_IMPORT.md",
+      "kind": "file",
+      "role": "append-only structural frame record",
+      "classification": "STRUCTURAL_FRAME_RECORD"
+    },
+    {
+      "path": "Gateway.json",
+      "kind": "file",
+      "role": "repository entrypoint",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Gateway.md",
+      "kind": "file",
+      "role": "repository entrypoint",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "Index.json",
+      "kind": "file",
+      "role": "derived complete local path inventory",
+      "classification": "DERIVED_COMPLETE_INDEX"
+    },
+    {
+      "path": "Index.md",
+      "kind": "file",
+      "role": "derived complete local path inventory",
+      "classification": "DERIVED_COMPLETE_INDEX"
+    },
+    {
+      "path": "LICENSE",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "kind": "file",
+      "role": "license status and scope declaration",
+      "classification": "LICENSE_SCOPE"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES",
+      "kind": "tree",
+      "role": "License package directory; child paths classified separately.",
+      "classification": "LICENSE_POLICY_DIRECTORY"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/FILE_LICENSE_MAP.csv",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/FILE_LICENSE_MAP.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/K501_LICENSE_POLICY_V1.0.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/LICENSE_REVIEW_CHECKLIST.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/LICENSE_TRANSITION_NOTICE.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/RIGHTSHOLDER_DECLARATION.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "LICENSES/THIRD_PARTY_NOTICES.md",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "MANIFEST.json",
+      "kind": "file",
+      "role": "root integrity record",
+      "classification": "INFORMATION_SPACE_INTEGRITY"
+    },
+    {
+      "path": "metadata",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "metadata/release-manifest.template.json",
+      "kind": "file",
+      "role": "repository, archive, or release metadata",
+      "classification": "PROJECT_METADATA"
+    },
+    {
+      "path": "metadata/repository.json",
+      "kind": "file",
+      "role": "repository, archive, or release metadata",
+      "classification": "PROJECT_METADATA"
+    },
+    {
+      "path": "metadata/source-archive-records.json",
+      "kind": "file",
+      "role": "repository, archive, or release metadata",
+      "classification": "PROJECT_METADATA"
+    },
+    {
+      "path": "NOTICE",
+      "kind": "blob",
+      "role": "License package policy, scope, standard license reference or review record.",
+      "classification": "LICENSE_POLICY_ARTIFACT"
+    },
+    {
+      "path": "payload",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/bin",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/bin/k501-proof-evidence-linux-x86_64",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/BUILD_VALIDATION_REPORT.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/CHANGELOG.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/ARCHITECTURE.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/EVIDENCE_PROTOCOL_CONFORMANCE.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/K501_INFORMATION_SPACE.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/OPERATIONS.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/include",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/qh256.h",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/sha256.h",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/LICENSE_STATUS.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/Makefile",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/README.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_RECORD.schema.json",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/SHA256SUMS.txt",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/k501_proof_evidence.c",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/qh256.c",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/sha256.c",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/tests",
+      "kind": "directory",
+      "role": "preserved source package directory",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_DIRECTORY"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/tests/test_runtime.c",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/TIME_ANCHOR.txt",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/VERSION",
+      "kind": "file",
+      "role": "preserved source package file",
+      "classification": "SOURCE_PACKAGE_PAYLOAD_FILE"
+    },
+    {
+      "path": "README.md",
+      "kind": "file",
+      "role": "repository entrypoint",
+      "classification": "ROOT_ENTRYPOINT"
+    },
+    {
+      "path": "references",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "references/REFERENCES.md",
+      "kind": "file",
+      "role": "source/provenance reference",
+      "classification": "SOURCE_REFERENCE"
+    },
+    {
+      "path": "releases",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "releases/RELEASE_POLICY.md",
+      "kind": "file",
+      "role": "release governance",
+      "classification": "RELEASE_GOVERNANCE"
+    },
+    {
+      "path": "runs",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "runs/run.schema.json",
+      "kind": "file",
+      "role": "run record schema",
+      "classification": "RUN_SCHEMA"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "kind": "file",
+      "role": "root integrity record",
+      "classification": "INFORMATION_SPACE_INTEGRITY"
+    },
+    {
+      "path": "SHA256SUMS.txt.sha256",
+      "kind": "file",
+      "role": "root integrity record",
+      "classification": "INFORMATION_SPACE_INTEGRITY"
+    },
+    {
+      "path": "specifications",
+      "kind": "directory",
+      "role": "directory node",
+      "classification": "PROJECT_DIRECTORY"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "kind": "file",
+      "role": "versioned structure specification",
+      "classification": "STRUCTURAL_SPECIFICATION"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "kind": "file",
+      "role": "versioned structure specification",
+      "classification": "STRUCTURAL_SPECIFICATION"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "kind": "file",
+      "role": "versioned structure specification",
+      "classification": "STRUCTURAL_SPECIFICATION"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "kind": "file",
+      "role": "versioned structure specification",
+      "classification": "STRUCTURAL_SPECIFICATION"
+    }
+  ]
+}

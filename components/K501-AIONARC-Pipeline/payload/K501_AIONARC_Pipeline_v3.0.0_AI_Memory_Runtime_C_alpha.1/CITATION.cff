@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this non-canonical Alpha 1 candidate, cite the exact version and archive checksum; do not cite it as a canonical release."
+title: "K501 AIONARC Pipeline v3 — AI Memory Runtime C Alpha 1"
+version: "3.0.0-alpha.1"
+date-released: "2026-10-16"
+authors:
+  - family-names: Miller
+    given-names: Patrick Robert
+    alias: Iinkognit0
+    affiliation: "K501 Information Space / K501-AIONARC"
+abstract: "Non-canonical engineering candidate for proof-bound local structural memory. See LICENSES/FILE_LICENSE_MAP.md for the asset-class license split; this citation does not imply that all files are uniformly MIT-licensed."

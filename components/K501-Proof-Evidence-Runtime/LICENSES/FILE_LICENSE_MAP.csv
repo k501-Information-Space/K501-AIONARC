@@ -1,0 +1,59 @@
+path,kind,disposition,spdx,reason,review_state
+.gitignore,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+Gateway.json,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+Gateway.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+Index.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+Index.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+LICENSE,blob,LICENSE_SCOPE_ROUTER,NOASSERTION,Mixed-license scope pointer; see per-file map,POLICY_NOTICE_NOT_SINGLE_SPDX
+LICENSES/CC-BY-4.0.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Standard license text reference; canonical source prevails,STANDARD_TEXT
+LICENSES/FILE_LICENSE_MAP.csv,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Machine-readable policy classification,G5-C_OPEN
+LICENSES/FILE_LICENSE_MAP.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/K501_LICENSE_POLICY_V1.0.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/LICENSE_REVIEW_CHECKLIST.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/LICENSE_TRANSITION_NOTICE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/MIT.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Standard license text reference; canonical source prevails,STANDARD_TEXT
+LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/RIGHTSHOLDER_DECLARATION.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/THIRD_PARTY_NOTICES.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSE_SCOPE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+LICENSE_STATUS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Owner-authored policy/notice text where rights are held,G5-C_OPEN
+MANIFEST.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+NOTICE,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Owner-authored policy/notice text where rights are held,G5-C_OPEN
+README.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+docs/OPERATOR_MANUAL.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+docs/PROJECT_BOUNDARY.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_000_BOOTSTRAP.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_000_BOOTSTRAP.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_001_PACKAGE_IMPORT.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_001_PACKAGE_IMPORT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+metadata/release-manifest.template.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+metadata/repository.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+metadata/source-archive-records.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/BUILD_VALIDATION_REPORT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/CHANGELOG.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/LICENSE_STATUS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/Makefile,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/README.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/SHA256SUMS.txt,blob,FACTUAL/INTEGRITY-METADATA,NOASSERTION,Digest/manifest integrity metadata; does not grant rights in referenced files,INTEGRITY_ONLY
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/TIME_ANCHOR.txt,blob,FACTUAL/INTEGRITY-METADATA,NOASSERTION,Version/time factual metadata,INTEGRITY_ONLY
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/VERSION,blob,FACTUAL/INTEGRITY-METADATA,NOASSERTION,Version/time factual metadata,INTEGRITY_ONLY
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/bin/k501-proof-evidence-linux-x86_64,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/ARCHITECTURE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/EVIDENCE_PROTOCOL_CONFORMANCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/K501_INFORMATION_SPACE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/OPERATIONS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/qh256.h,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/sha256.h,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_RECORD.schema.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Recognized documentation/descriptive metadata path; verify embedded third-party works,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/k501_proof_evidence.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/qh256.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/sha256.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_Proof_Evidence_Runtime_Alpha1_C/tests/test_runtime.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+references/REFERENCES.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+releases/RELEASE_POLICY.md,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+runs/run.schema.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN

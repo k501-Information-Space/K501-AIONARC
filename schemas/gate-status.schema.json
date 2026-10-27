@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-DYNAMIC-GATE-STATUS-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "artifact_id", "version", "evaluated_at", "gates", "profiles"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_DYNAMIC_GATE_STATUS/1.0"},
+    "artifact_id": {"type": "string"},
+    "version": {"type": "string", "const": "3.5.0"},
+    "evaluated_at": {"type": "string"},
+    "gates": {"type": "object"},
+    "profiles": {"type": "object"}
+  },
+  "additionalProperties": true
+}

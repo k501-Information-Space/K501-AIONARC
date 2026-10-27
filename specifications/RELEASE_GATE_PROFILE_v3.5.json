@@ -1,0 +1,231 @@
+{
+  "schema_id": "K501_DYNAMIC_RELEASE_GATE_PROFILE/1.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "version": "3.5.0",
+  "profile_id": "K501-INTEGRATED-STABLE-GITHUB-AND-ZENODO",
+  "status_vocabulary": [
+    "PASS",
+    "FAIL",
+    "OPEN",
+    "PARTIAL",
+    "SKIP"
+  ],
+  "calculation_rule": "CONJUNCTIVE_REQUIRED_GATES; NO_SCORE; NO_EXIT_CODE_AUTO_PROMOTION",
+  "gates": [
+    {
+      "gate_id": "SRC-01",
+      "name": "Exact source and archive identity",
+      "depends_on": [],
+      "evidence_required": [
+        "component source archive SHA-256",
+        "source tree parity",
+        "aggregate file manifest"
+      ]
+    },
+    {
+      "gate_id": "BLD-01",
+      "name": "Clean aggregate build",
+      "depends_on": [
+        "SRC-01"
+      ],
+      "evidence_required": [
+        "host/toolchain record",
+        "clean build output",
+        "dist binary hashes"
+      ]
+    },
+    {
+      "gate_id": "TST-01",
+      "name": "Component regression suites",
+      "depends_on": [
+        "BLD-01"
+      ],
+      "evidence_required": [
+        "AIONARC full suite",
+        "Proof/Evidence suite",
+        "self-tests"
+      ]
+    },
+    {
+      "gate_id": "INT-01",
+      "name": "Cross-component process integration",
+      "depends_on": [
+        "BLD-01",
+        "TST-01"
+      ],
+      "evidence_required": [
+        "recorder launches exact AIONARC child binary",
+        "assertion result",
+        "captured run manifest"
+      ]
+    },
+    {
+      "gate_id": "SCH-01",
+      "name": "Schema, specification and integrity validation",
+      "depends_on": [
+        "SRC-01"
+      ],
+      "evidence_required": [
+        "JSON/schema checks",
+        "Index and manifest comparison",
+        "checksum sidecar"
+      ]
+    },
+    {
+      "gate_id": "RIGHTS-01",
+      "name": "Owner-ratified file-level rights and redistribution scope",
+      "depends_on": [
+        "SRC-01"
+      ],
+      "evidence_required": [
+        "direct owner declaration",
+        "complete path-to-license map",
+        "third-party scope preserved",
+        "redistribution authorization for mapped scope"
+      ]
+    },
+    {
+      "gate_id": "HOST-01",
+      "name": "Declared local Linux x86-64 operator-host acceptance",
+      "depends_on": [
+        "BLD-01",
+        "TST-01",
+        "INT-01"
+      ],
+      "evidence_required": [
+        "component source and executable digests",
+        "host environment",
+        "operator quickstart and negative cases"
+      ]
+    },
+    {
+      "gate_id": "REPRO-01",
+      "name": "Same-host twin clean-copy reproducibility",
+      "depends_on": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01"
+      ],
+      "evidence_required": [
+        "two independent clean source-tree copies",
+        "same-host same-toolchain builds",
+        "binary hashes match each other and aggregate"
+      ]
+    },
+    {
+      "gate_id": "OWNER-01",
+      "name": "Owner canonical designation and local release approval",
+      "depends_on": [
+        "RIGHTS-01",
+        "HOST-01",
+        "REPRO-01",
+        "SCH-01"
+      ],
+      "evidence_required": [
+        "owner declaration",
+        "reviewed local candidate",
+        "approved version and local assets"
+      ]
+    },
+    {
+      "gate_id": "GITHUB-01",
+      "name": "Canonical GitHub publication and reconciliation",
+      "depends_on": [
+        "OWNER-01"
+      ],
+      "evidence_required": [
+        "verified target repository",
+        "commit/tag/release hashes",
+        "downloaded asset reconciliation"
+      ]
+    },
+    {
+      "gate_id": "ZENODO-01",
+      "name": "Zenodo draft approval and publication",
+      "depends_on": [
+        "GITHUB-01",
+        "RIGHTS-01",
+        "OWNER-01"
+      ],
+      "evidence_required": [
+        "reviewed metadata",
+        "rights/access decision",
+        "asset checksum",
+        "publication authorization",
+        "DOI reconciliation"
+      ]
+    }
+  ],
+  "release_profiles": [
+    {
+      "profile_id": "LOCAL_TECHNICAL_CANDIDATE",
+      "required_gates": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01",
+        "INT-01",
+        "SCH-01"
+      ]
+    },
+    {
+      "profile_id": "OWNER_DECLARED_LOCAL_CANONICAL",
+      "required_gates": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01",
+        "INT-01",
+        "SCH-01",
+        "RIGHTS-01",
+        "HOST-01",
+        "REPRO-01",
+        "OWNER-01"
+      ]
+    },
+    {
+      "profile_id": "GITHUB_PUBLICATION_PREFLIGHT",
+      "required_gates": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01",
+        "INT-01",
+        "SCH-01",
+        "RIGHTS-01",
+        "HOST-01",
+        "REPRO-01",
+        "OWNER-01"
+      ]
+    },
+    {
+      "profile_id": "STABLE_GITHUB_RELEASE",
+      "required_gates": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01",
+        "INT-01",
+        "SCH-01",
+        "RIGHTS-01",
+        "HOST-01",
+        "REPRO-01",
+        "OWNER-01",
+        "GITHUB-01"
+      ]
+    },
+    {
+      "profile_id": "ZENODO_PUBLICATION",
+      "required_gates": [
+        "SRC-01",
+        "BLD-01",
+        "TST-01",
+        "INT-01",
+        "SCH-01",
+        "RIGHTS-01",
+        "HOST-01",
+        "REPRO-01",
+        "OWNER-01",
+        "GITHUB-01",
+        "ZENODO-01"
+      ]
+    }
+  ],
+  "current_release_state": "OWNER_DECLARED_CANONICAL_LOCAL; GITHUB_AND_ZENODO_PUBLICATION_GATES_OPEN"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_id": "K501_SOURCE_ARCHIVE_RECORDS/0.1",
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "state": "LOCAL_PAYLOAD_IMPORTED",
+  "archives": [
+    {
+      "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+      "format": "ZIP",
+      "source_path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip",
+      "sidecar_path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip.sha256",
+      "archive_sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435",
+      "sidecar_file_sha256": "4ee4ca987ef965269a5fce4754e618542f259faae61dfa92306625b741875a22",
+      "archive_root": "K501_Proof_Evidence_Runtime_Alpha1_C",
+      "payload_path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C",
+      "archive_member_count_including_directories": 28,
+      "regular_file_count": 21,
+      "directory_count": 6,
+      "uncompressed_bytes": 156322,
+      "internal_manifest": {
+        "path": "SHA256SUMS.txt",
+        "sha256": "71e6856d72f902b2e3c70a9f383db256d99a644dd12089571ad31f98ea352cd7",
+        "entries_verified": 20,
+        "status": "PASS"
+      },
+      "payload_tree_sha256": "f3d2470ddbb73bee5cf1b0de8b3595f218c04f4a854bf1d4d1b43f9071a14dbd",
+      "license_provenance_members": {
+        "LICENSE_STATUS.md": "9c505a8c05becba944e8873da01637f37f1d5d9465322ba4a1be3bd1ad45a09d"
+      },
+      "license_review_open_check_items": null,
+      "package_archive_copied_into_payload": false,
+      "source_archive_and_sidecar_modified": false
+    }
+  ],
+  "copy_boundary": "ZIP members were imported byte-for-byte under payload/. The source ZIP and sidecar remain at their original package paths. No build or runtime execution was performed by this gate.",
+  "license_status": "OPEN",
+  "redistribution_status": "NOT_CLEARED",
+  "release_status": "NOT_RELEASED"
+}

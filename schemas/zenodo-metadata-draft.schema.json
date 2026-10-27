@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-ZENODO-METADATA-DRAFT-SCHEMA-1.0",
+  "type": "object",
+  "required": ["draft_id", "status", "upload_type", "title", "version", "publication_date", "doi", "access_right", "license", "creators", "description_file", "manuscript_file", "keywords", "related_identifiers", "proposed_upload_files", "rights_and_access_note", "doi_assignment"],
+  "properties": {
+    "draft_id": {"type": "string"},
+    "status": {"type": "string", "const": "DRAFT_NOT_APPROVED_NOT_UPLOADED"},
+    "upload_type": {"type": "string", "const": "software"},
+    "title": {"type": "string"},
+    "version": {"type": "string", "const": "3.5.0"},
+    "publication_date": {"type": ["string", "null"]},
+    "doi": {"type": ["string", "null"]},
+    "access_right": {"type": ["string", "null"]},
+    "license": {"type": ["string", "null"]},
+    "creators": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["name", "source"], "properties": {"name": {"type": "string"}, "source": {"type": "string"}}}},
+    "description_file": {"type": "string"},
+    "manuscript_file": {"type": "string"},
+    "keywords": {"type": "array", "items": {"type": "string"}},
+    "related_identifiers": {"type": "array", "items": {"type": "object"}},
+    "proposed_upload_files": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "rights_and_access_note": {"type": "string"},
+    "doi_assignment": {"type": "string", "const": "NOT_REQUESTED"}
+  },
+  "additionalProperties": true
+}

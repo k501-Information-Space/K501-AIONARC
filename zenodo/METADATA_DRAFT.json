@@ -1,0 +1,36 @@
+{
+  "$schema": "../schemas/zenodo-metadata-draft.schema.json",
+  "draft_id": "K501-ZENODO-DRAFT-V3.5.0",
+  "status": "DRAFT_NOT_APPROVED_NOT_UPLOADED",
+  "upload_type": "software",
+  "title": "K501 AIONARC Integrated Pipeline & Proof Runtime (3.5.0)",
+  "version": "3.5.0",
+  "publication_date": null,
+  "doi": null,
+  "access_right": null,
+  "license": null,
+  "creators": [
+    {
+      "name": "Patrick Robert Miller",
+      "alias": "IInkognit0",
+      "affiliation": "K501 Information Space / K501-AIONARC",
+      "source": "owner declaration in metadata/RIGHTSHOLDER_ATTESTATION.json; public depositor/account identity has not been independently verified"
+    }
+  ],
+  "description_file": "zenodo/DESCRIPTION_DRAFT.md",
+  "manuscript_file": "zenodo/MANUSCRIPT_DRAFT.md",
+  "keywords": [
+    "K501 Information Space",
+    "AIONARC",
+    "structural memory",
+    "QH256",
+    "evidence runtime",
+    "reproducible software"
+  ],
+  "related_identifiers": [],
+  "proposed_upload_files": [
+    "K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip"
+  ],
+  "rights_and_access_note": "The owner ratified MIT for mapped K501-authored code and CC BY 4.0 for mapped K501-authored documentation. This is a mixed file-level license scope; deposit-level license/access, related-record, and publication-date fields remain unresolved. Third-party notices are preserved. This draft is not approved or uploaded.",
+  "doi_assignment": "NOT_REQUESTED"
+}

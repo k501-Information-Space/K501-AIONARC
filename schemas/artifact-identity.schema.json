@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-INTEGRATED-ARTIFACT-IDENTITY-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "artifact_id", "artifact_name", "version", "release_intent", "candidate_status", "canonicality", "user_time_anchor", "components", "integration_contract", "system_specification", "mapping_profile", "license_clearance", "redistribution_clearance", "github_publication", "zenodo_publication"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_INTEGRATED_ARTIFACT/1.0"},
+    "artifact_id": {"type": "string"},
+    "artifact_name": {"type": "string"},
+    "version": {"type": "string", "const": "3.5.0"},
+    "release_intent": {"type": "string", "enum": ["STABLE"]},
+    "candidate_status": {"type": "string"},
+    "canonicality": {"type": "string"},
+    "user_time_anchor": {"type": "object", "required": ["unix_epoch", "utc", "europe_berlin", "source"], "properties": {"unix_epoch": {"type": "integer", "const": 1793046600}, "utc": {"type": "string"}, "europe_berlin": {"type": "string"}, "source": {"type": "string"}}},
+    "components": {"type": "array", "minItems": 2, "items": {"type": "object", "required": ["project_id", "local_path", "component_version", "source_archive_sha256"], "properties": {"project_id": {"type": "string"}, "local_path": {"type": "string"}, "component_version": {"type": "string"}, "source_archive_sha256": {"type": "string"}}}},
+    "integration_contract": {"type": "string"},
+    "system_specification": {"type": "string"},
+    "mapping_profile": {"type": "string"},
+    "license_clearance": {"type": "string"},
+    "redistribution_clearance": {"type": "string"},
+    "github_publication": {"type": "string"},
+    "zenodo_publication": {"type": "string"}
+  },
+  "additionalProperties": true
+}

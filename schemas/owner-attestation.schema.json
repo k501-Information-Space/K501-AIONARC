@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-RIGHTSHOLDER-ATTESTATION-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "artifact_id", "artifact_version", "declarant", "alias_as_declared", "time_anchor", "copyright_claim", "license_policy", "scope", "third_party_rule", "identity_independently_verified", "chain_of_title_independently_verified", "publication_status"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_RIGHTSHOLDER_ATTESTATION/1.0"},
+    "artifact_id": {"type": "string"},
+    "artifact_version": {"type": "string", "const": "3.5.0"},
+    "declarant": {"type": "string"},
+    "alias_as_declared": {"type": "string"},
+    "declaration_source": {"type": "string"},
+    "time_anchor": {"type": "object", "required": ["unix_epoch", "utc", "europe_berlin"], "properties": {"unix_epoch": {"type": "integer", "const": 1793046600}, "utc": {"type": "string"}, "europe_berlin": {"type": "string"}}},
+    "copyright_claim": {"type": "string"},
+    "license_policy": {"type": "object", "required": ["K501-authored-software-and-code", "K501-authored-documentation-and-descriptive-material"], "properties": {"K501-authored-software-and-code": {"type": "string", "const": "MIT"}, "K501-authored-documentation-and-descriptive-material": {"type": "string", "const": "CC-BY-4.0"}}},
+    "scope": {"type": "string"},
+    "third_party_rule": {"type": "string"},
+    "identity_independently_verified": {"type": "boolean", "const": false},
+    "chain_of_title_independently_verified": {"type": "boolean", "const": false},
+    "publication_status": {"type": "string"}
+  },
+  "additionalProperties": true
+}

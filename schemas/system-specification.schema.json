@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-INTEGRATED-SYSTEM-SPECIFICATION-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "specification_id", "artifact_id", "version", "status", "release_intent", "components", "integration_contract", "mapping_profile", "acceptance_profile", "explicit_exclusions"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_INTEGRATED_SYSTEM_SPECIFICATION/3.5.0"},
+    "specification_id": {"type": "string"},
+    "artifact_id": {"type": "string"},
+    "version": {"type": "string"},
+    "status": {"type": "string"},
+    "release_intent": {"type": "string", "enum": ["STABLE"]},
+    "components": {"type": "array", "minItems": 2, "items": {"type": "object", "required": ["project_id", "component_version", "role", "contract"], "properties": {"project_id": {"type": "string"}, "component_version": {"type": "string"}, "role": {"type": "string"}, "contract": {"type": "string"}}}},
+    "integration_contract": {"type": "string"},
+    "mapping_profile": {"type": "string"},
+    "acceptance_profile": {"type": "array", "items": {"type": "string"}},
+    "explicit_exclusions": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

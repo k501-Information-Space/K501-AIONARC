@@ -1,0 +1,13 @@
+K501 Proof and Evidence Runtime Alpha 1 — build anchors
+
+User authorization / request anchor:
+  Unix Epoch: 1792437767
+  UTC: 2026-10-19 19:22:47 UTC
+  Europe/Berlin: 2026-10-19 21:22:47 CEST
+
+Initial package QA observation anchor:
+  Unix Epoch: 1792438604
+  UTC: 2026-10-19 19:36:44 UTC
+
+Note: final build, test, and archive creation times are recorded in BUILD_VALIDATION_REPORT.md.
+This text is provenance metadata, not a claim that the user's local host was modified.

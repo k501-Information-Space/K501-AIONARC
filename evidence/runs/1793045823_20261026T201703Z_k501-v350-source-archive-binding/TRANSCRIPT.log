@@ -1,0 +1,6 @@
+K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip: OK
+K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.tar.gz: OK
+PROOF_EVIDENCE_ARCHIVE_SHA256=c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435
+ARCHIVE_TO_PAYLOAD_PARITY=PASS archive=K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip files=52
+ARCHIVE_TO_PAYLOAD_PARITY=PASS archive=K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.tar.gz files=52
+ARCHIVE_TO_PAYLOAD_PARITY=PASS archive=K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip files=21

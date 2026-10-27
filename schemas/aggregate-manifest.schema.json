@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-INTEGRATED-MANIFEST-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "artifact_id", "version", "manifest_scope", "hash_algorithm", "entries"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_INTEGRATED_MANIFEST/1.0"},
+    "artifact_id": {"type": "string"},
+    "version": {"type": "string", "const": "3.5.0"},
+    "manifest_scope": {"type": "string"},
+    "hash_algorithm": {"type": "string", "const": "SHA-256"},
+    "entries": {"type": "array", "items": {"type": "object", "required": ["path", "bytes", "sha256"], "properties": {"path": {"type": "string"}, "bytes": {"type": "integer"}, "sha256": {"type": "string"}}}}
+  },
+  "additionalProperties": true
+}

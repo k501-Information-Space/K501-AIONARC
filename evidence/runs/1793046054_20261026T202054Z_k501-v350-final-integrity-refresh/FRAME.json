@@ -1,0 +1,19 @@
+{
+  "frame_id": "1793046054_20261026T202054Z_k501-v350-final-integrity-refresh",
+  "protocol": "K501-CONTROLLED-RUN-0.1",
+  "status_at_creation": "RUNNING",
+  "area": "system",
+  "slug": "k501-v350-final-integrity-refresh",
+  "workspace_root": "/home/hirn/K501_Information_Space",
+  "working_directory": "/home/hirn/K501_Information_Space",
+  "host": "hirn",
+  "time_source": "host_system_clock",
+  "start_epoch_unix": 1793046054,
+  "start_utc": "2026-10-26T20:20:54+00:00",
+  "start_europe_berlin": "2026-10-26T21:20:54+01:00",
+  "command_argv": [
+    "bash",
+    "-c",
+    "cd work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable && python3 scripts/refresh_integrity.py"
+  ]
+}

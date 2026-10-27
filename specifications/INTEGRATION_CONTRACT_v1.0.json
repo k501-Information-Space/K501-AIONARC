@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/integration-contract.schema.json",
+  "schema_id": "K501_INTEGRATION_CONTRACT/1.0",
+  "contract_id": "K501-PIPELINE-EVIDENCE-INTEGRATION-1.0",
+  "status": "PROPOSED_FOR_OWNER_EVALUATION",
+  "component_ids": [
+    "K501-AIONARC-PIPELINE",
+    "K501-PROOF-EVIDENCE-RUNTIME"
+  ],
+  "integration_interface": {
+    "type": "separate_child_process",
+    "command": ["k501-memory", "qh256-test"],
+    "runtime_binary_source": "same_aggregate_clean_build",
+    "expected_exit_code": 0
+  },
+  "order": [
+    "verify_source_manifests",
+    "build_aionarc",
+    "build_proof_evidence",
+    "run_aionarc_tests",
+    "run_recorder_integration_tests",
+    "verify_aggregate_integrity"
+  ],
+  "gate_effect": "NO_GATE_EFFECT_UNTIL_REVIEW",
+  "evidence_status_mapping": "NOT_DEFINED",
+  "protocol_v0_1_0_status": "PROPOSED_NOT_RATIFIED",
+  "stop_conditions": [
+    "source_manifest_mismatch",
+    "build_failure",
+    "test_failure",
+    "runtime_binary_identity_mismatch",
+    "evidence_capture_failure",
+    "aggregate_integrity_failure"
+  ]
+}

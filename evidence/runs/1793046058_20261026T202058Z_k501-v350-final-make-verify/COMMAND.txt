@@ -1,0 +1,4 @@
+frame_id=1793046058_20261026T202058Z_k501-v350-final-make-verify
+area=system
+slug=k501-v350-final-make-verify
+command_argv_shell_escaped=bash -c cd\ work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable\ \&\&\ make\ verify 

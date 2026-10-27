@@ -1,0 +1,30 @@
+path_pattern,SPDX,scope,note
+LICENSE,MIT,license for K501 source/build/test code only,See LICENSES/FILE_LICENSE_MAP.md for documentation exception
+k501_memory.c,MIT,K501 runtime implementation,Owner-controlled Alpha 1 code
+include/**,MIT,K501 QH256 public header,QH256 v2 core API retained
+src/**,MIT,K501 runtime/hash source and headers,SHA-256 implementation rewritten for A1
+Makefile,MIT,build configuration,Fixed generic x86-64 baseline flags
+scripts/**,MIT,build/package validation scripts,No publishing actions
+tests/**,MIT,runtime tests and synthetic fixture,No personal/canonical corpus
+examples/**,MIT,example scripts,Uses synthetic paths
+README.md,CC-BY-4.0,documentation,Owner-controlled prose
+OPERATOR_QUICK_REFERENCE.md,CC-BY-4.0,documentation,Owner-controlled prose
+docs/**,CC-BY-4.0,documentation/specification,Subject to third-party exclusions below
+CODE_OF_CONDUCT.md,CC-BY-4.0,conduct charter,Owner-controlled prose
+LICENSES/CC-BY-4.0.txt,NO_PROJECT_LICENSE,standard license text,Offline reference transcription; canonical URL governs any difference
+LICENSES/MIT.txt,NO_PROJECT_LICENSE,standard MIT license text,License text itself is not a package content grant
+pdftotext (host installed),UPSTREAM,optional external tool,Not redistributed by this package
+user corpus/local run logs,NO_RELICENSE_NO_PUBLICATION,external/local content,Not included in candidate by default
+K501 trademarks/logos,RESERVED,branding,Not licensed under MIT/CC BY by default
+LICENSES/*.md,CC-BY-4.0,"K501-authored licensing policy, notices and review metadata",Excludes standard license text files; subject to owner authority
+LICENSES/FILE_LICENSE_MAP.csv,CC-BY-4.0,machine-readable file-license mapping,Does not decide ownership or replace per-file upstream terms
+CITATION.cff,CC-BY-4.0,citation and descriptive metadata,Factual identifiers and referenced works remain separately scoped
+metadata/**,CC-BY-4.0,K501-authored package metadata,No license to underlying files is created
+NOTICE,CC-BY-4.0,package scope notice,Does not expand or replace the file-license map
+LICENSE_STATUS.md,CC-BY-4.0,prospective license-status notice,Alpha 0 files are historical and unchanged
+CHANGELOG.md,CC-BY-4.0,authored release history,Historical facts are not statements of external endorsement
+TIME_ANCHOR.txt,FACTUAL_METADATA,timestamp and scope metadata,No license to referenced external frames is created
+VERSION,FACTUAL_METADATA,version identifier,No license to referenced package artifacts is created
+SHA256SUMS.txt,INTEGRITY_METADATA,file hash manifest,Does not grant rights in files whose hashes are listed
+docs/SELF_REVIEW_REPORT.md,CC-BY-4.0,authored self-review record,Not an independent legal or third-party audit
+docs/VALIDATION_REPORT.md,CC-BY-4.0,authored package validation report,Only the test scope stated in the report is covered

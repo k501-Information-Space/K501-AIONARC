@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-RELEASE-GATE-PROFILE-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "artifact_id", "version", "profile_id", "status_vocabulary", "calculation_rule", "gates", "release_profiles"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_DYNAMIC_RELEASE_GATE_PROFILE/1.0"},
+    "artifact_id": {"type": "string"},
+    "version": {"type": "string", "const": "3.5.0"},
+    "profile_id": {"type": "string"},
+    "status_vocabulary": {"type": "array", "items": {"type": "string"}},
+    "calculation_rule": {"type": "string"},
+    "gates": {"type": "array", "items": {"type": "object", "required": ["gate_id", "name", "depends_on", "evidence_required"], "properties": {"gate_id": {"type": "string"}, "name": {"type": "string"}, "depends_on": {"type": "array", "items": {"type": "string"}}, "evidence_required": {"type": "array", "items": {"type": "string"}}}}, "minItems": 1},
+    "release_profiles": {"type": "array", "items": {"type": "object", "required": ["profile_id", "required_gates"], "properties": {"profile_id": {"type": "string"}, "required_gates": {"type": "array", "items": {"type": "string"}}}}, "minItems": 1}
+  },
+  "additionalProperties": true
+}

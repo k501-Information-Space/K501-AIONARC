@@ -1,0 +1,66 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_STRUCTURE_SPEC/0.2",
+  "specification_id": "K501-AIONARC-PIPELINE-IS-STRUCTURE-0.2",
+  "project_id": "K501-AIONARC-PIPELINE",
+  "status": "LOCAL_PACKAGE_PAYLOAD_IMPORTED_RECONCILIATION",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "supersedes_as_current_structure": "K501-AIONARC-PIPELINE-IS-STRUCTURE-0.1",
+  "preserved_bootstrap_specification": {
+    "human": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+    "machine": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+    "classification": "HISTORICAL_BOOTSTRAP_RECORD_UNMODIFIED"
+  },
+  "control_surface": [
+    "README.md",
+    "Gateway.md",
+    "Gateway.json",
+    "Index.md",
+    "Index.json",
+    "frames/",
+    "specifications/",
+    "docs/",
+    "metadata/",
+    "references/",
+    "runs/run.schema.json",
+    "MANIFEST.json",
+    "SHA256SUMS.txt",
+    "SHA256SUMS.txt.sha256",
+    "LICENSE_SCOPE.md"
+  ],
+  "source_package_payload": {
+    "path": "payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+    "archive_root": "K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+    "archive_sha256": "f14e203ad7bfa466d118780b06b69e59198e2fd917cb0e7e82222b83557df607",
+    "internal_manifest_status": "PASS",
+    "regular_file_count": 52,
+    "payload_tree_sha256": "716b9d02a1978149a592f717fa3b969e884fa3375e626adbdde3d86218130aa1",
+    "source_files_preserved_without_intended_edits": true
+  },
+  "integrity": {
+    "repository_manifest": "MANIFEST.json",
+    "repository_checksums": "SHA256SUMS.txt",
+    "repository_sidecar": "SHA256SUMS.txt.sha256",
+    "scope": "All local non-.git repository files except MANIFEST.json, root SHA256SUMS.txt and its root sidecar; the manifest itself is covered by the root checksum list. The nested source package manifest remains present and verified.",
+    "index_is_derived_not_a_content_hash": true
+  },
+  "license_status": "OPEN",
+  "redistribution_status": "NOT_CLEARED",
+  "acceptance_status": "NOT_ESTABLISHED_BY_IMPORT",
+  "invariants": [
+    "APPEND_ONLY_FRAMES",
+    "FRAME_000_PRESERVED",
+    "BOOTSTRAP_SPEC_V0_1_PRESERVED",
+    "SOURCE_ARCHIVE_HASH_VERIFIED",
+    "INTERNAL_PACKAGE_MANIFEST_VERIFIED",
+    "SOURCE_PAYLOAD_BYTES_PRESERVED",
+    "NO_ROOT_LICENSE_GRANT_INFERRED",
+    "NO_DRIFT",
+    "DERIVED_IS_NOT_CANONICAL",
+    "LOCAL_IMPORT_IS_NOT_RELEASE_ACCEPTANCE"
+  ]
+}

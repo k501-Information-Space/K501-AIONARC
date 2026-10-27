@@ -1,0 +1,18 @@
+{
+  "frame_id": "1793047805_20261026T205005Z_k501-v350-reproducibility",
+  "protocol": "K501-CONTROLLED-RUN-0.1",
+  "status_at_creation": "RUNNING",
+  "area": "pipeline",
+  "slug": "k501-v350-reproducibility",
+  "workspace_root": "/home/hirn/K501_Information_Space",
+  "working_directory": "/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable",
+  "host": "hirn",
+  "time_source": "host_system_clock",
+  "start_epoch_unix": 1793047805,
+  "start_utc": "2026-10-26T20:50:05+00:00",
+  "start_europe_berlin": "2026-10-26T21:50:05+01:00",
+  "command_argv": [
+    "python3",
+    "scripts/reproducibility_check.py"
+  ]
+}

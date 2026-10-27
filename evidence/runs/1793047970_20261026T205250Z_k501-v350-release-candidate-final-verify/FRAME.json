@@ -1,0 +1,18 @@
+{
+  "frame_id": "1793047970_20261026T205250Z_k501-v350-release-candidate-final-verify",
+  "protocol": "K501-CONTROLLED-RUN-0.1",
+  "status_at_creation": "RUNNING",
+  "area": "pipeline",
+  "slug": "k501-v350-release-candidate-final-verify",
+  "workspace_root": "/home/hirn/K501_Information_Space",
+  "working_directory": "/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable",
+  "host": "hirn",
+  "time_source": "host_system_clock",
+  "start_epoch_unix": 1793047970,
+  "start_utc": "2026-10-26T20:52:50+00:00",
+  "start_europe_berlin": "2026-10-26T21:52:50+01:00",
+  "command_argv": [
+    "make",
+    "verify"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-INTEGRATION-CONTRACT-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "contract_id", "status", "component_ids", "integration_interface", "order", "gate_effect", "evidence_status_mapping", "protocol_v0_1_0_status", "stop_conditions"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_INTEGRATION_CONTRACT/1.0"},
+    "contract_id": {"type": "string"},
+    "status": {"type": "string"},
+    "component_ids": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+    "integration_interface": {"type": "object", "required": ["type", "command", "runtime_binary_source", "expected_exit_code"], "properties": {"type": {"type": "string"}, "command": {"type": "array", "items": {"type": "string"}}, "runtime_binary_source": {"type": "string"}, "expected_exit_code": {"type": "integer"}}},
+    "order": {"type": "array", "minItems": 6, "items": {"type": "string"}},
+    "gate_effect": {"type": "string"},
+    "evidence_status_mapping": {"type": "string"},
+    "protocol_v0_1_0_status": {"type": "string"},
+    "stop_conditions": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,25 @@
+K501 AIONARC Integrated Pipeline & Proof Runtime — License Scope Router
+
+Copyright © 2026 Patrick Robert Miller (alias: IInkognit0), as declared by the
+owner at Unix time 1793046600 (2026-10-26T20:30:00Z).
+
+This file is not a single license for every byte in this package. Apply the
+path-specific assignments in LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv and keep
+the notices and licenses attached to third-party material.
+
+- K501-authored software, source code, build/test code, and executable
+  derivatives are licensed under the MIT License. The license text is in
+  LICENSES/MIT.txt.
+- K501-authored documentation, specifications, schemas, and descriptive
+  metadata are licensed under Creative Commons Attribution 4.0 International
+  (CC BY 4.0). The license text is in LICENSES/CC-BY-4.0.txt.
+- Third-party material, preserved component license texts, historical records,
+  and factual/integrity records retain the per-file treatment shown in the
+  aggregate map. This router does not relicense material outside the owner's
+  declared authority.
+
+The owner declaration and its scope are recorded in
+LICENSES/RIGHTSHOLDER_ATTESTATION.md and
+metadata/RIGHTSHOLDER_ATTESTATION.json. Embedded component status files are
+preserved source-history snapshots; this aggregate license layer applies to
+the integrated v3.5.0 package only.

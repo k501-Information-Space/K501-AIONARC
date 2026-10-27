@@ -1,0 +1,90 @@
+path,kind,disposition,spdx,reason,review_state
+.gitignore,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+Gateway.json,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+Gateway.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+Index.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+Index.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+LICENSE,blob,LICENSE_SCOPE_ROUTER,NOASSERTION,Mixed-license scope pointer; see per-file map,POLICY_NOTICE_NOT_SINGLE_SPDX
+LICENSES/CC-BY-4.0.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Standard license text reference; canonical source prevails,STANDARD_TEXT
+LICENSES/FILE_LICENSE_MAP.csv,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Machine-readable policy classification,G5-C_OPEN
+LICENSES/FILE_LICENSE_MAP.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/K501_LICENSE_POLICY_V1.0.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/LICENSE_REVIEW_CHECKLIST.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/LICENSE_TRANSITION_NOTICE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/MIT.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Standard license text reference; canonical source prevails,STANDARD_TEXT
+LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/RIGHTSHOLDER_DECLARATION.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSES/THIRD_PARTY_NOTICES.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored policy/provenance document where rights are held,G5-C_OPEN
+LICENSE_SCOPE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+LICENSE_STATUS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Owner-authored policy/notice text where rights are held,G5-C_OPEN
+MANIFEST.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Authored structural/descriptive metadata, subject to authority over incorporated material",G5-C_OPEN
+NOTICE,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Owner-authored policy/notice text where rights are held,G5-C_OPEN
+README.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+docs/OPERATOR_MANUAL.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+docs/PROJECT_BOUNDARY.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_000_BOOTSTRAP.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_000_BOOTSTRAP.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_001_PACKAGE_IMPORT.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+frames/FRAME_001_PACKAGE_IMPORT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+metadata/release-manifest.template.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+metadata/repository.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+metadata/source-archive-records.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CHANGELOG.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: authored release history; Historical facts are not statements of external endorsement,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CITATION.cff,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: citation and descriptive metadata; Factual identifiers and referenced works remain separately scoped,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/CODE_OF_CONDUCT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: conduct charter; Owner-controlled prose,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSE,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Upstream/package license text; scope per embedded map and notice,PRESERVE_TEXT
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/CC-BY-4.0-METADATA.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/CC-BY-4.0.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Upstream/package license text; scope per embedded map and notice,PRESERVE_TEXT
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/FILE_LICENSE_MAP.csv,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Embedded package license policy/map; subject to package's own scope,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/FILE_LICENSE_MAP.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Embedded package license policy/map; subject to package's own scope,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/K501_INFORMATION_SPACE_LICENSE_POLICY_V1.0.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/LICENSE_REVIEW_CHECKLIST.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/LICENSE_TRANSITION_NOTICE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/MIT.txt,blob,STANDARD-LICENSE-TEXT,NOASSERTION,Upstream/package license text; scope per embedded map and notice,PRESERVE_TEXT
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/RIGHTSHOLDER_DECLARATION.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSES/THIRD_PARTY_NOTICES.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,"Payload map: K501-authored licensing policy, notices and review metadata; Excludes standard license text files; subject to owner authority",G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/LICENSE_STATUS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: prospective license-status notice; Alpha 0 files are historical and unchanged,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/Makefile,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: build configuration; Fixed generic x86-64 baseline flags,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/NOTICE,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: package scope notice; Does not expand or replace the file-license map,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/OPERATOR_QUICK_REFERENCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation; Owner-controlled prose,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/README.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation; Owner-controlled prose,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/SHA256SUMS.txt,blob,FACTUAL/INTEGRITY-METADATA,NOASSERTION,Digest/manifest integrity metadata; does not grant rights in referenced files,INTEGRITY_ONLY
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/TIME_ANCHOR.txt,blob,FACTUAL_METADATA,NOASSERTION,Payload map: timestamp and scope metadata; No license to referenced external frames is created,RETAIN_OR_REVIEW
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/VERSION,blob,FACTUAL_METADATA,NOASSERTION,Payload map: version identifier; No license to referenced package artifacts is created,RETAIN_OR_REVIEW
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/bin/k501-memory-linux-x86_64,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/ARCHITECTURE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/DATA_FORMATS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/DECISION_LOG.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/MEMORY_CONTRACT_V1.0.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/MODULE_CONTRACTS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_MANUAL.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_MANUAL_DE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/OPERATOR_QUICK_REFERENCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/PROOF_BEFORE_STATE_CONTRACT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/QH256_MAPPING_PROFILE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/RELEASE_CHECKLIST.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SECURITY_AND_LIMITATIONS.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SELF_REVIEW_REPORT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: authored self-review record; Not an independent legal or third-party audit,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SOURCE_PROVENANCE.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/SOURCE_REGISTER.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/STATUS_REGISTER.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: documentation/specification; Subject to third-party exclusions below,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/docs/VALIDATION_REPORT.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: authored package validation report; Only the test scope stated in the report is covered,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/examples/quickstart.sh,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: example scripts; Uses synthetic paths,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/include/qh256.h,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: K501 QH256 public header; QH256 v2 core API retained,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/k501_memory.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: K501 runtime implementation; Owner-controlled Alpha 1 code,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/metadata/PACKAGE_METADATA.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Payload map: K501-authored package metadata; No license to underlying files is created,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/run.sh,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Recognized software/build/test path; preserve any conflicting file notice,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/scripts/build.sh,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: build/package validation scripts; No publishing actions,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/scripts/verify-package.sh,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: build/package validation scripts; No publishing actions,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/qh256.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: K501 runtime/hash source and headers; SHA-256 implementation rewritten for A1,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/sha256.c,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: K501 runtime/hash source and headers; SHA-256 implementation rewritten for A1,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/src/sha256.h,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: K501 runtime/hash source and headers; SHA-256 implementation rewritten for A1,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/tests/fixtures/minimal-text.pdf,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: runtime tests and synthetic fixture; No personal/canonical corpus,G5-C_OPEN
+payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1/tests/test.sh,blob,K501-MIT-PENDING-RECONCILIATION,MIT,Payload map: runtime tests and synthetic fixture; No personal/canonical corpus,G5-C_OPEN
+references/REFERENCES.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+releases/RELEASE_POLICY.md,blob,HOLD/UNRESOLVED,NOASSERTION,No supported path classification rule,HOLD_UNTIL_REVIEW
+runs/run.schema.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,Authored specification or descriptive metadata; validate embedded references,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN
+specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md,blob,K501-CC-BY-4.0-PENDING-RECONCILIATION,CC-BY-4.0,K501-authored documentation/control-surface material where rights are held,G5-C_OPEN

@@ -1,0 +1,92 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_GATEWAY/0.1",
+  "gateway_id": "K501-PROOF-EVIDENCE-RUNTIME-GATEWAY-0.2",
+  "status": "LOCAL_PACKAGE_PAYLOAD_IMPORTED_LICENSE_AND_ACCEPTANCE_OPEN",
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "repository_target": "k501-Information-Space/K501-Proof-Evidence-Runtime",
+  "remote_configured": false,
+  "default_branch": "main",
+  "entry_document": "README.md",
+  "index": {
+    "human": "Index.md",
+    "machine": "Index.json",
+    "index_id": "K501-PROOF-EVIDENCE-RUNTIME-INDEX-0.2",
+    "classification": "DERIVED_COMPLETE_LOCAL_PATH_INVENTORY"
+  },
+  "current_structure_specification": {
+    "human": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+    "machine": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json"
+  },
+  "structure_history": [
+    {
+      "version": "0.1",
+      "human": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "machine": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "classification": "PRESERVED_BOOTSTRAP_SPECIFICATION"
+    }
+  ],
+  "current_frame": {
+    "human": "frames/FRAME_001_PACKAGE_IMPORT.md",
+    "machine": "frames/FRAME_001_PACKAGE_IMPORT.json",
+    "frame_id": "K501-PROOF-EVIDENCE-RUNTIME-IS-FRAME-001"
+  },
+  "previous_frame": {
+    "human": "frames/FRAME_000_BOOTSTRAP.md",
+    "machine": "frames/FRAME_000_BOOTSTRAP.json",
+    "frame_id": "K501-PROOF-EVIDENCE-RUNTIME-IS-FRAME-000",
+    "classification": "HISTORICAL_BOOTSTRAP_RECORD_UNMODIFIED"
+  },
+  "operator_manual": "docs/OPERATOR_MANUAL.md",
+  "project_boundary": "docs/PROJECT_BOUNDARY.md",
+  "run_schema": "runs/run.schema.json",
+  "license_scope": "LICENSE_SCOPE.md",
+  "root_license_status": "NOT_CREATED_LICENSE_REVIEW_OPEN",
+  "layers": {
+    "control_surface": [
+      "README.md",
+      "Gateway.md",
+      "Gateway.json",
+      "Index.md",
+      "Index.json",
+      "frames/",
+      "specifications/",
+      "docs/",
+      "metadata/",
+      "references/",
+      "runs/run.schema.json",
+      "LICENSE_SCOPE.md",
+      "MANIFEST.json",
+      "SHA256SUMS.txt",
+      "SHA256SUMS.txt.sha256"
+    ],
+    "source_package_payload": {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C",
+      "archive_root": "K501_Proof_Evidence_Runtime_Alpha1_C",
+      "archive_sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435",
+      "internal_manifest_status": "PASS",
+      "regular_file_count": 21,
+      "payload_tree_sha256": "f3d2470ddbb73bee5cf1b0de8b3595f218c04f4a854bf1d4d1b43f9071a14dbd"
+    }
+  },
+  "integrity": {
+    "manifest": "MANIFEST.json",
+    "sha256_list": "SHA256SUMS.txt",
+    "sidecar": "SHA256SUMS.txt.sha256",
+    "verify_from_repo_root": "sha256sum -c SHA256SUMS.txt",
+    "scope_note": "Root manifest covers all local non-.git files except the root manifest and root checksum list/sidecar; root checksum list covers MANIFEST.json. The nested package manifest is retained and verified independently."
+  },
+  "boundaries": {
+    "canonicality": "Local unborn repository; public canonicality not established.",
+    "source_payload": "Bytes preserved under payload/ from verified ZIP.",
+    "licensing": "OPEN; no blanket root-level license inferred.",
+    "redistribution": "NOT_CLEARED",
+    "release": "NOT_RELEASED",
+    "runtime_execution": "NOT_PERFORMED_BY_IMPORT_GATE"
+  },
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  }
+}

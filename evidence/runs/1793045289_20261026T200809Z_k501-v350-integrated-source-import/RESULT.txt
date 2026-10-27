@@ -1,0 +1,11 @@
+frame_id=1793045289_20261026T200809Z_k501-v350-integrated-source-import
+process_status=EXIT_ZERO
+exit_code=0
+start_epoch_unix=1793045289
+end_epoch_unix=1793045289
+elapsed_seconds=0
+start_utc=2026-10-26T20:08:09+00:00
+end_utc=2026-10-26T20:08:09+00:00
+start_europe_berlin=2026-10-26T21:08:09+01:00
+end_europe_berlin=2026-10-26T21:08:09+01:00
+interpretation=PROCESS_EXIT_ONLY_NOT_GATE_ACCEPTANCE

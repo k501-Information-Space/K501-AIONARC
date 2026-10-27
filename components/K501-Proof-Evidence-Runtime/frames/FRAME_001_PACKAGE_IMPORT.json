@@ -1,0 +1,47 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_FRAME/0.1",
+  "frame_id": "K501-PROOF-EVIDENCE-RUNTIME-IS-FRAME-001",
+  "frame_type": "LOCAL_SOURCE_PACKAGE_IMPORT",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "repository_target": "k501-Information-Space/K501-Proof-Evidence-Runtime",
+  "base_ref": "main",
+  "base_commit": null,
+  "previous_frame_id": "K501-PROOF-EVIDENCE-RUNTIME-IS-FRAME-000",
+  "declaration": "Import the verified Alpha-1 ZIP payload under a dedicated payload/ subtree while preserving the independent K501 Information Space control surface at the repository root.",
+  "source_archive": {
+    "path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip",
+    "sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435",
+    "sidecar_path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip.sha256",
+    "sidecar_file_sha256": "4ee4ca987ef965269a5fce4754e618542f259faae61dfa92306625b741875a22",
+    "archive_root": "K501_Proof_Evidence_Runtime_Alpha1_C",
+    "internal_manifest": {
+      "path": "SHA256SUMS.txt",
+      "sha256": "71e6856d72f902b2e3c70a9f383db256d99a644dd12089571ad31f98ea352cd7",
+      "entries_verified": 20,
+      "status": "PASS"
+    },
+    "regular_file_count": 21,
+    "payload_tree_sha256": "f3d2470ddbb73bee5cf1b0de8b3595f218c04f4a854bf1d4d1b43f9071a14dbd"
+  },
+  "destination": "payload/K501_Proof_Evidence_Runtime_Alpha1_C",
+  "operations": {
+    "extraction": "CONTROLLED_ZIP_EXTRACTION",
+    "source_file_bytes_modified": false,
+    "root_gateway_and_index_preserved_as_separate_control_surface": true,
+    "root_license_created": false,
+    "build_or_runtime_executed": false,
+    "commit_created": false,
+    "remote_added": false,
+    "push_performed": false
+  },
+  "status_boundary": "PASS records local payload identity and integrity checks only. It does not close licensing/provenance review, pipeline/runtime integration, package acceptance, or release/publication gates.",
+  "license_status": "OPEN",
+  "redistribution_status": "NOT_CLEARED",
+  "next_transition_rule": "Append further evidence frames only after the next approved validation/licence gates. Do not overwrite this import record."
+}

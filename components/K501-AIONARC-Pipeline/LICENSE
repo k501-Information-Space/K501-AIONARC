@@ -1,0 +1,15 @@
+K501 Information Space — Mixed-License Scope Notice
+
+Copyright © 2026 Patrick Robert Miller (Iinkognit0).
+Project root: K501-AIONARC-Pipeline.
+
+This root contains material under more than one license. This file is a scope router, not a single blanket license grant. Read LICENSES/FILE_LICENSE_MAP.csv and LICENSES/FILE_LICENSE_MAP.md before relying on a license assignment.
+
+- Original source/build/test/automation files classified as K501-MIT are offered under the MIT License, with the official terms in LICENSES/MIT.txt.
+- Original human-authored documentation and descriptive material classified as K501-CC-BY-4.0 are offered under CC BY 4.0, with the canonical legal code at https://creativecommons.org/licenses/by/4.0/legalcode. Attribution and change notices are required by that license.
+- QH256 components with an existing MIT/SPDX notice retain the notice and applicable upstream terms.
+- Third-party, historical, externally sourced, private, unidentified, or conflicting-license material is not relicensed by this notice. Such material is UPSTREAM or HOLD as the per-file map states.
+
+Presence in a package, index, manifest, or checksum list does not prove ownership. Unknown files are not presumed licensed. This notice does not grant rights in trademarks, logos, privacy/personality rights, or content outside the Declarant's authority.
+
+Canonical reference texts: https://opensource.org/license/mit and https://creativecommons.org/licenses/by/4.0/legalcode. The canonical license texts and any preserved file-level notices prevail over convenience copies.

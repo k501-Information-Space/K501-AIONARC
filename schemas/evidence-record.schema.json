@@ -1,0 +1,397 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://k501-information-space.invalid/spec/evidence-record/v0.1.0/schema.json",
+  "title": "K501 Normalized Evidence Record",
+  "description": "Proposed normalized record. It describes evidence; it does not by itself declare a project gate PASS.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "evidence_id",
+    "run_id",
+    "area",
+    "scope",
+    "check_id",
+    "subject_artifacts",
+    "procedure",
+    "timing",
+    "execution",
+    "outcome",
+    "raw_evidence",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "evidence_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "related_run_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "area": {
+      "type": "string",
+      "enum": [
+        "system",
+        "pipeline",
+        "eArc",
+        "QH256",
+        "AIONARC_CHANNEL",
+        "publication",
+        "other"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "gate_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "check_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "criteria_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "acceptance_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "subject_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "identity",
+          "sha256",
+          "size_bytes"
+        ],
+        "properties": {
+          "identity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "size_bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "repository_root": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "git_commit": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^([a-fA-F0-9]{40}|[a-fA-F0-9]{64})$"
+          },
+          "git_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "worktree_status_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "procedure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "description"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "command",
+            "test_suite",
+            "inspection",
+            "manual_procedure"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "argv": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "working_directory": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "environment_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tool_versions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "expected_exit_code": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "timing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "started_utc",
+        "ended_utc"
+      ],
+      "properties": {
+        "started_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "ended_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "started_epoch": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "ended_epoch": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "actual_exit_code",
+        "expected_behavior"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "PASS",
+            "FAIL",
+            "BLOCKED",
+            "NOT_RUN",
+            "PARTIAL"
+          ]
+        },
+        "actual_exit_code": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "expected_behavior": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_behavior": {
+          "type": "string"
+        },
+        "preconditions_met": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        }
+      }
+    },
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "summary",
+        "gate_effect"
+      ],
+      "properties": {
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gate_effect": {
+          "type": "string",
+          "enum": [
+            "SUPPORTS_PASS",
+            "SUPPORTS_FAIL",
+            "BLOCKS_EVALUATION",
+            "INFORMATIONAL",
+            "NO_GATE_EFFECT_UNTIL_REVIEW"
+          ]
+        },
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewed_utc": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        }
+      }
+    },
+    "raw_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "stdout",
+              "stderr",
+              "transcript",
+              "exit_status",
+              "input",
+              "fixture",
+              "manifest",
+              "other"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "size_bytes": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "derived_evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "method"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "method": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

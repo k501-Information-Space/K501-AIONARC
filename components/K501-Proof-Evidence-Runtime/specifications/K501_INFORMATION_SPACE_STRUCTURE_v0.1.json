@@ -1,0 +1,40 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_STRUCTURE_SPEC/0.1",
+  "specification_id": "K501-PROOF-EVIDENCE-RUNTIME-IS-STRUCTURE-0.1",
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "status": "LOCAL_BOOTSTRAP_CANDIDATE",
+  "time_anchor": {
+    "unix_epoch": 1792615629,
+    "utc": "2026-10-21T20:47:09Z",
+    "europe_berlin": "2026-10-21T22:47:09+02:00",
+    "source": "user-declared GO action anchor"
+  },
+  "control_surface": [
+    "README.md",
+    "Gateway.md",
+    "Gateway.json",
+    "Index.md",
+    "Index.json",
+    "frames/",
+    "specifications/",
+    "docs/",
+    "metadata/",
+    "references/",
+    "runs/run.schema.json",
+    "MANIFEST.json",
+    "SHA256SUMS.txt",
+    "SHA256SUMS.txt.sha256",
+    "LICENSE_SCOPE.md"
+  ],
+  "payload_status": "NOT_IMPORTED",
+  "license_status": "OPEN",
+  "canonicality": "NOT_ESTABLISHED",
+  "invariants": [
+    "COMPLETE_LOCAL_PATH_INVENTORY",
+    "APPEND_ONLY_FRAMES",
+    "NO_DRIFT",
+    "DERIVED_IS_NOT_CANONICAL",
+    "LICENSE_SCOPE_IS_NOT_LICENSE_GRANT",
+    "NO_REMOTE_OR_PUBLIC_CANONICALITY_CLAIM"
+  ]
+}

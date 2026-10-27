@@ -1,0 +1,47 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_FRAME/0.1",
+  "frame_id": "K501-AIONARC-PIPELINE-IS-FRAME-001",
+  "frame_type": "LOCAL_SOURCE_PACKAGE_IMPORT",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "project_id": "K501-AIONARC-PIPELINE",
+  "repository_target": "k501-Information-Space/K501-AIONARC-Pipeline",
+  "base_ref": "main",
+  "base_commit": null,
+  "previous_frame_id": "K501-AIONARC-PIPELINE-IS-FRAME-000",
+  "declaration": "Import the verified Alpha-1 ZIP payload under a dedicated payload/ subtree while preserving the independent K501 Information Space control surface at the repository root.",
+  "source_archive": {
+    "path": "packages/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip",
+    "sha256": "f14e203ad7bfa466d118780b06b69e59198e2fd917cb0e7e82222b83557df607",
+    "sidecar_path": "packages/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip.sha256",
+    "sidecar_file_sha256": "8c76393c6442284856e6289bc52bdb639b91bbd25e95e57f2d25fb1df4deea37",
+    "archive_root": "K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+    "internal_manifest": {
+      "path": "SHA256SUMS.txt",
+      "sha256": "cc18709813dfb8a627f294f861ad479744cc74168a7ddf7e5c9838bce8041548",
+      "entries_verified": 51,
+      "status": "PASS"
+    },
+    "regular_file_count": 52,
+    "payload_tree_sha256": "716b9d02a1978149a592f717fa3b969e884fa3375e626adbdde3d86218130aa1"
+  },
+  "destination": "payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+  "operations": {
+    "extraction": "CONTROLLED_ZIP_EXTRACTION",
+    "source_file_bytes_modified": false,
+    "root_gateway_and_index_preserved_as_separate_control_surface": true,
+    "root_license_created": false,
+    "build_or_runtime_executed": false,
+    "commit_created": false,
+    "remote_added": false,
+    "push_performed": false
+  },
+  "status_boundary": "PASS records local payload identity and integrity checks only. It does not close licensing/provenance review, pipeline/runtime integration, package acceptance, or release/publication gates.",
+  "license_status": "OPEN",
+  "redistribution_status": "NOT_CLEARED",
+  "next_transition_rule": "Append further evidence frames only after the next approved validation/licence gates. Do not overwrite this import record."
+}

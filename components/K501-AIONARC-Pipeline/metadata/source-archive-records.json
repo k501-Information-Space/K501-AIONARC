@@ -1,0 +1,53 @@
+{
+  "schema_id": "K501_SOURCE_ARCHIVE_RECORDS/0.1",
+  "project_id": "K501-AIONARC-PIPELINE",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "state": "LOCAL_PAYLOAD_IMPORTED",
+  "archives": [
+    {
+      "project_id": "K501-AIONARC-PIPELINE",
+      "format": "ZIP",
+      "source_path": "packages/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip",
+      "sidecar_path": "packages/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_3.0.0-alpha.1.zip.sha256",
+      "archive_sha256": "f14e203ad7bfa466d118780b06b69e59198e2fd917cb0e7e82222b83557df607",
+      "sidecar_file_sha256": "8c76393c6442284856e6289bc52bdb639b91bbd25e95e57f2d25fb1df4deea37",
+      "archive_root": "K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+      "payload_path": "payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+      "archive_member_count_including_directories": 63,
+      "regular_file_count": 52,
+      "directory_count": 10,
+      "uncompressed_bytes": 355054,
+      "internal_manifest": {
+        "path": "SHA256SUMS.txt",
+        "sha256": "cc18709813dfb8a627f294f861ad479744cc74168a7ddf7e5c9838bce8041548",
+        "entries_verified": 51,
+        "status": "PASS"
+      },
+      "payload_tree_sha256": "716b9d02a1978149a592f717fa3b969e884fa3375e626adbdde3d86218130aa1",
+      "license_provenance_members": {
+        "LICENSE": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68",
+        "LICENSE_STATUS.md": "2f93c3ed44d1bb9bde21fd8a9c90ccf6e44bd126c8b5061d885b9f5b3def3d6b",
+        "NOTICE": "62959419c5d4c2006d994472638ca7aa3ec199316f7e2ad80669c412bb6ffb0c",
+        "LICENSES/FILE_LICENSE_MAP.md": "2d3f4997c04cd772d688aa38fada78aeb439b12d847d290a09211ad052dc3bad",
+        "LICENSES/FILE_LICENSE_MAP.csv": "cb56fc4f261782f67d131fed70919c876ee54951fa9048c961cdb170b6106064",
+        "LICENSES/RIGHTSHOLDER_DECLARATION.md": "3a4d87fa2572a1de6bd8abfdd146934c732f03f565f568e3cf07ac76de025ab2",
+        "LICENSES/LICENSE_REVIEW_CHECKLIST.md": "e3bd4df5ed3924ba65f730ab6ec9edd7ffaf6d2a696fbc590f7147395a31d702",
+        "LICENSES/THIRD_PARTY_NOTICES.md": "f574b56f1e00c6dd0a586a7ee1a274666d7d2ce31a8a4910cda6cd5aef75f0cc",
+        "LICENSES/MIT.txt": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68",
+        "LICENSES/CC-BY-4.0.txt": "675181506508b5e2506ab194fdac5b0fa74585342ec05eaaab1ed9e86c06a9b1"
+      },
+      "license_review_open_check_items": 9,
+      "package_archive_copied_into_payload": false,
+      "source_archive_and_sidecar_modified": false
+    }
+  ],
+  "copy_boundary": "ZIP members were imported byte-for-byte under payload/. The source ZIP and sidecar remain at their original package paths. No build or runtime execution was performed by this gate.",
+  "license_status": "OPEN",
+  "redistribution_status": "NOT_CLEARED",
+  "release_status": "NOT_RELEASED"
+}

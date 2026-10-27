@@ -1,0 +1,23 @@
+{
+  "schema_id": "K501_RIGHTSHOLDER_ATTESTATION/1.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "artifact_version": "3.5.0",
+  "declarant": "Patrick Robert Miller",
+  "alias_as_declared": "IInkognit0",
+  "declaration_source": "direct owner statement in the K501 task conversation",
+  "time_anchor": {
+    "unix_epoch": 1793046600,
+    "utc": "2026-10-26T20:30:00Z",
+    "europe_berlin": "2026-10-26T21:30:00+01:00"
+  },
+  "copyright_claim": "The declarant states Patrick Robert Miller is the copyright holder and author of K501-owned material in the integrated package.",
+  "license_policy": {
+    "K501-authored-software-and-code": "MIT",
+    "K501-authored-documentation-and-descriptive-material": "CC-BY-4.0"
+  },
+  "scope": "Only files identified by LICENSES/AGGREGATE_FILE_LICENSE_MAP.json as owner-declared K501 material.",
+  "third_party_rule": "Preserve file-level third-party and QH256 notices; no rights beyond the declarant's authority are asserted.",
+  "identity_independently_verified": false,
+  "chain_of_title_independently_verified": false,
+  "publication_status": "LOCAL_CANONICAL_DESIGNATION_ONLY; GITHUB_AND_ZENODO_NOT_PUBLISHED"
+}

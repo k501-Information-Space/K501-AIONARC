@@ -1,0 +1,126 @@
+{
+  "schema_id": "K501_PROJECT_REPOSITORY/0.1",
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "project_name": "K501 Proof & Evidence Runtime",
+  "package_version_candidate": "0.1.0-alpha.1",
+  "repository_target": {
+    "owner": "k501-Information-Space",
+    "repository_name": "K501-Proof-Evidence-Runtime",
+    "full_name": "k501-Information-Space/K501-Proof-Evidence-Runtime",
+    "remote_configured": false,
+    "public_existence_or_name_availability": "NOT_ESTABLISHED"
+  },
+  "time_anchors": {
+    "initial_layout_go": {
+      "unix_epoch": 1792615224,
+      "utc": "2026-10-21T20:40:24Z",
+      "source": "user-declared local layout GO"
+    },
+    "structure_go": {
+      "unix_epoch": 1792615629,
+      "utc": "2026-10-21T20:47:09Z",
+      "source": "user-declared structure GO"
+    },
+    "repair_action": {
+      "unix_epoch": 1792615965,
+      "utc": "2026-10-21T20:52:45Z",
+      "europe_berlin": "2026-10-21T22:52:45+02:00",
+      "source": "user-declared GO / recovery action anchor"
+    }
+  },
+  "source_inventory": {
+    "run_id": "1792614828_20261021T203348Z_alpha1-joint-artifact-inventory-20261021",
+    "references": [
+      {
+        "role": "package directory",
+        "path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C",
+        "status": "Previously inventoried; not copied; recheck required."
+      },
+      {
+        "role": "runtime ZIP archive",
+        "path": "/home/hirn/Downloads/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip",
+        "sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435",
+        "status": "Prior inventory reported match; recheck before copy."
+      },
+      {
+        "role": "Evidence Protocol ZIP archive",
+        "path": "/home/hirn/Downloads/K501_EVIDENCE_PROTOCOL_FREEZE_READY_v0.1.0.zip",
+        "sha256": "2f238111ba38882123fde3515bb35026f1fbf4ffc19b14df1381ef5875600797",
+        "status": "Prior inventory reported match; recheck before copy."
+      },
+      {
+        "role": "ratified Evidence Protocol specification",
+        "path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md",
+        "sha256": "3d5d39c7896e3a673ff8a5a3cb3c6acf52d55e4ef1ec72dc9cd4dbcebe603b7f",
+        "status": "Prior inventory reported match; recheck at source gate."
+      },
+      {
+        "role": "Evidence Protocol schema",
+        "path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_RECORD.schema.json",
+        "sha256": "5948e2a839cbd5a1e687b950aeece3bd5d199ec69a3095fbcc51d46dd72a19f6",
+        "status": "Prior inventory reported match; recheck at source gate."
+      },
+      {
+        "role": "Evidence Protocol conformance record",
+        "path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C/docs/EVIDENCE_PROTOCOL_CONFORMANCE.md",
+        "sha256": "83f27143cf625df4f62a5bc689cadae02e028af18e4a0f63a44814fe5aa7f21c",
+        "status": "Prior inventory reported match; recheck at source gate."
+      },
+      {
+        "role": "installed binary reference only",
+        "path": "tools/k501-proof-evidence-linux-x86_64",
+        "sha256": "e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880",
+        "status": "Reference only; not copied into this repository scaffold."
+      }
+    ],
+    "package_payload_copied": true,
+    "package_payload_executed": false,
+    "hash_recheck_required_before_copy": true,
+    "copy_gate": "ALPHA1-CONTROLLED-PACKAGE-IMPORT-01",
+    "source_archive_sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435"
+  },
+  "license_status": "OPEN",
+  "integration_status": "PARTIAL/OPEN: prior standalone runtime tests passed in their recorded scope. Combined integration remains unproven and G17-F conformance gaps remain open.",
+  "canonicality": "NOT_ESTABLISHED_LOCAL_UNBORN_REPOSITORY",
+  "principles": [
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "APPEND_ONLY",
+    "NO_DRIFT",
+    "NO_PHANTOM",
+    "NO_INTERPRETATION",
+    "DERIVED_IS_NOT_CANONICAL"
+  ],
+  "current_local_state": "LOCAL_PACKAGE_PAYLOAD_IMPORTED_NOT_RELEASED",
+  "source_package_import": {
+    "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+    "format": "ZIP",
+    "source_path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip",
+    "sidecar_path": "packages/K501_Proof_Evidence_Runtime_Alpha1_C_0.1.0-alpha.1.zip.sha256",
+    "archive_sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435",
+    "sidecar_file_sha256": "4ee4ca987ef965269a5fce4754e618542f259faae61dfa92306625b741875a22",
+    "archive_root": "K501_Proof_Evidence_Runtime_Alpha1_C",
+    "payload_path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C",
+    "archive_member_count_including_directories": 28,
+    "regular_file_count": 21,
+    "directory_count": 6,
+    "uncompressed_bytes": 156322,
+    "internal_manifest": {
+      "path": "SHA256SUMS.txt",
+      "sha256": "71e6856d72f902b2e3c70a9f383db256d99a644dd12089571ad31f98ea352cd7",
+      "entries_verified": 20,
+      "status": "PASS"
+    },
+    "payload_tree_sha256": "f3d2470ddbb73bee5cf1b0de8b3595f218c04f4a854bf1d4d1b43f9071a14dbd",
+    "license_provenance_members": {
+      "LICENSE_STATUS.md": "9c505a8c05becba944e8873da01637f37f1d5d9465322ba4a1be3bd1ad45a09d"
+    },
+    "license_review_open_check_items": null,
+    "package_archive_copied_into_payload": false,
+    "source_archive_and_sidecar_modified": false
+  },
+  "redistribution_status": "NOT_CLEARED",
+  "release_status": "NOT_RELEASED",
+  "current_structure_specification": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+  "current_frame": "frames/FRAME_001_PACKAGE_IMPORT.json"
+}

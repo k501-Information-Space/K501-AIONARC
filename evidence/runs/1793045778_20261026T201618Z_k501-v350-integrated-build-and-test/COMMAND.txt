@@ -1,0 +1,4 @@
+frame_id=1793045778_20261026T201618Z_k501-v350-integrated-build-and-test
+area=pipeline
+slug=k501-v350-integrated-build-and-test
+command_argv_shell_escaped=bash -c set\ -eu\;\ artifact=work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable\;\ diff\ -qr\ work/K501-AIONARC-Pipeline\ \"\$artifact/components/K501-AIONARC-Pipeline\"\;\ diff\ -qr\ work/K501-Proof-Evidence-Runtime\ \"\$artifact/components/K501-Proof-Evidence-Runtime\"\;\ cd\ \"\$artifact\"\;\ make\ clean\;\ make\ all\;\ make\ test\;\ python3\ scripts/validate_contracts.py\;\ python3\ scripts/evaluate_gates.py\;\ sha256sum\ dist/linux-x86_64/k501-memory\ dist/linux-x86_64/k501-proof-evidence 

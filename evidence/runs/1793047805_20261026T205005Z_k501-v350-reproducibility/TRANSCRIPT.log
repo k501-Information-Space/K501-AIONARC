@@ -1,0 +1,25 @@
+{
+  "host": {
+    "system": "Linux",
+    "machine": "x86_64"
+  },
+  "scope": "two independent clean copies of pinned component source trees, same host and toolchain",
+  "components": [
+    {
+      "component": "AIONARC",
+      "clean_copy_A_sha256": "838746254724916d60c53fd1de5cf112938271b991e127e9a29bab547d019ff2",
+      "clean_copy_B_sha256": "838746254724916d60c53fd1de5cf112938271b991e127e9a29bab547d019ff2",
+      "aggregate_sha256": "838746254724916d60c53fd1de5cf112938271b991e127e9a29bab547d019ff2",
+      "match": true
+    },
+    {
+      "component": "Proof-Evidence-Runtime",
+      "clean_copy_A_sha256": "e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880",
+      "clean_copy_B_sha256": "e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880",
+      "aggregate_sha256": "e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880",
+      "match": true
+    }
+  ],
+  "result": "PASS"
+}
+REPRODUCIBILITY=PASS

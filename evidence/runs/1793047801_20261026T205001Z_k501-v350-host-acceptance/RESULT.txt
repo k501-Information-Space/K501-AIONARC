@@ -1,0 +1,11 @@
+frame_id=1793047801_20261026T205001Z_k501-v350-host-acceptance
+process_status=EXIT_ZERO
+exit_code=0
+start_epoch_unix=1793047801
+end_epoch_unix=1793047801
+elapsed_seconds=0
+start_utc=2026-10-26T20:50:01+00:00
+end_utc=2026-10-26T20:50:01+00:00
+start_europe_berlin=2026-10-26T21:50:01+01:00
+end_europe_berlin=2026-10-26T21:50:01+01:00
+interpretation=PROCESS_EXIT_ONLY_NOT_GATE_ACCEPTANCE

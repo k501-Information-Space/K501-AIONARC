@@ -1,0 +1,11 @@
+frame_id=1793046058_20261026T202058Z_k501-v350-final-make-verify
+process_status=EXIT_ZERO
+exit_code=0
+start_epoch_unix=1793046058
+end_epoch_unix=1793046064
+elapsed_seconds=6
+start_utc=2026-10-26T20:20:58+00:00
+end_utc=2026-10-26T20:21:04+00:00
+start_europe_berlin=2026-10-26T21:20:58+01:00
+end_europe_berlin=2026-10-26T21:21:04+01:00
+interpretation=PROCESS_EXIT_ONLY_NOT_GATE_ACCEPTANCE

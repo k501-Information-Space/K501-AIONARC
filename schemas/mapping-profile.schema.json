@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "K501-QH256-INTEGRATED-MAPPING-SCHEMA-1.0",
+  "type": "object",
+  "required": ["schema_id", "profile_id", "status", "qh256_core", "application_profile", "mapping_source", "assigned_cells", "reserved_cells", "evidence_runtime_outcome_mapping", "serialization_bytes", "states", "compatibility"],
+  "properties": {
+    "schema_id": {"type": "string", "const": "K501_QH256_MAPPING_PROFILE/3.5.0"},
+    "profile_id": {"type": "string"},
+    "status": {"type": "string"},
+    "qh256_core": {"type": "string"},
+    "application_profile": {"type": "string"},
+    "mapping_source": {"type": "string"},
+    "assigned_cells": {"type": "string"},
+    "reserved_cells": {"type": "string"},
+    "evidence_runtime_outcome_mapping": {"type": "string", "const": "NOT_DEFINED"},
+    "serialization_bytes": {"type": "integer", "const": 32},
+    "states": {"type": "object", "required": ["UNKNOWN", "FALSE", "TRUE", "GUARD"], "properties": {"UNKNOWN": {"type": "string", "const": "00"}, "FALSE": {"type": "string", "const": "01"}, "TRUE": {"type": "string", "const": "10"}, "GUARD": {"type": "string", "const": "11"}}},
+    "compatibility": {"type": "string"}
+  },
+  "additionalProperties": true
+}

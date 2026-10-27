@@ -1,0 +1,16 @@
+{
+  "schema_id": "K501_RELEASE_MANIFEST/0.1",
+  "project_id": "K501-AIONARC-PIPELINE",
+  "release_tag": "NOT_ASSIGNED",
+  "release_commit": null,
+  "release_status": "NOT_RELEASED",
+  "artifacts": [],
+  "provenance": {
+    "source_archive_sha256": "f14e203ad7bfa466d118780b06b69e59198e2fd917cb0e7e82222b83557df607",
+    "source_archive_record": "metadata/source-archive-records.json",
+    "package_payload": "payload/K501_AIONARC_Pipeline_v3.0.0_AI_Memory_Runtime_C_alpha.1",
+    "license_clearance": "OPEN",
+    "redistribution_clearance": "NOT_CLEARED",
+    "acceptance_gate": "OPEN"
+  }
+}

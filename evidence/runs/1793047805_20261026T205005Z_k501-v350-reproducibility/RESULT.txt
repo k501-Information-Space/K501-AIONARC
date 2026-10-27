@@ -1,0 +1,11 @@
+frame_id=1793047805_20261026T205005Z_k501-v350-reproducibility
+process_status=EXIT_ZERO
+exit_code=0
+start_epoch_unix=1793047805
+end_epoch_unix=1793047813
+elapsed_seconds=8
+start_utc=2026-10-26T20:50:05+00:00
+end_utc=2026-10-26T20:50:13+00:00
+start_europe_berlin=2026-10-26T21:50:05+01:00
+end_europe_berlin=2026-10-26T21:50:13+01:00
+interpretation=PROCESS_EXIT_ONLY_NOT_GATE_ACCEPTANCE

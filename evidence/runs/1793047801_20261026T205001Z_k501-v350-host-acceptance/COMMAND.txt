@@ -1,0 +1,4 @@
+frame_id=1793047801_20261026T205001Z_k501-v350-host-acceptance
+area=pipeline
+slug=k501-v350-host-acceptance
+command_argv_shell_escaped=python3 scripts/host_acceptance.py 

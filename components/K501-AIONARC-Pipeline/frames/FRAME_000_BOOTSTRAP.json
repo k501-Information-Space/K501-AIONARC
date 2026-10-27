@@ -1,0 +1,41 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_FRAME/0.1",
+  "frame_id": "K501-AIONARC-PIPELINE-IS-FRAME-000",
+  "frame_type": "LOCAL_STRUCTURE_BOOTSTRAP_DECLARATION",
+  "time_anchor": {
+    "unix_epoch": 1792615629,
+    "utc": "2026-10-21T20:47:09Z",
+    "europe_berlin": "2026-10-21T22:47:09+02:00",
+    "source": "user-declared GO action anchor"
+  },
+  "project_id": "K501-AIONARC-PIPELINE",
+  "repository_target": "k501-Information-Space/K501-AIONARC-Pipeline",
+  "base_ref": "main",
+  "base_commit": null,
+  "previous_frame_id": null,
+  "declaration": "Establish the initial local human/machine control surface for K501 AIONARC Pipeline, with independent project identity and explicit package, license, and canonicality boundaries.",
+  "entrypoints": {
+    "readme": "README.md",
+    "gateway_human": "Gateway.md",
+    "gateway_machine": "Gateway.json",
+    "index_human": "Index.md",
+    "index_machine": "Index.json"
+  },
+  "current_scope": {
+    "control_surface": "CREATED_BY_THIS_GATE",
+    "source_package_payload": "NOT_COPIED",
+    "license_clearance": "OPEN",
+    "remote_repository": "NOT_CREATED_OR_CONFIGURED_BY_THIS_GATE",
+    "commit_or_push": "NOT_PERFORMED"
+  },
+  "invariants": [
+    "NO_DRIFT",
+    "APPEND_ONLY",
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "STRUCTURE_PRECEDES_MEANING",
+    "DERIVED_IS_NOT_CANONICAL"
+  ],
+  "status_boundary": "Bootstrap declaration only. It does not prove package integrity, runtime conformance, license clearance, release acceptance, or canonical public GitHub state.",
+  "next_transition_rule": "Append a new frame only after the exact source candidate, license/provenance, copy, and resulting Index/manifest have been reviewed."
+}

@@ -1,0 +1,20 @@
+HOST=hirn
+USER=hirn
+PWD=/home/hirn/K501_Information_Space/work/K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable
+WORKSPACE_ROOT=/home/hirn/K501_Information_Space
+KERNEL=Linux hirn 7.2.9+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 7.2.9-1~bpo13+1 (2026-10-13) x86_64 GNU/Linux
+
+BASH_VERSION=5.2.37(1)-release
+DATE_UTC=2026-10-26T20:50:05+00:00
+DATE_LOCAL=2026-10-26T21:50:05+01:00
+
+--- tool versions (available only) ---
+git version 2.47.3
+Python 3.13.5
+GNU Make 4.4.1
+cc (Debian 14.2.0-19) 14.2.0
+gcc (Debian 14.2.0-19) 14.2.0
+Debian clang version 19.1.7 (3+b1)
+sha256sum (GNU coreutils) 9.7
+tar (GNU tar) 1.35
+UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.

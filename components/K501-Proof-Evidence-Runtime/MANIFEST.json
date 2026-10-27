@@ -1,0 +1,304 @@
+{
+  "schema_id": "K501_INFORMATION_SPACE_MANIFEST/0.2",
+  "package_id": "K501-PROOF-EVIDENCE-RUNTIME-LOCAL-PAYLOAD-IMPORT",
+  "package_version": "0.1.0-alpha.1",
+  "status": "LOCAL_PAYLOAD_IMPORTED_LICENSE_AND_ACCEPTANCE_OPEN",
+  "time_anchor": {
+    "unix_epoch": 1792616559,
+    "utc": "2026-10-21T21:02:39Z",
+    "europe_berlin": "2026-10-21T23:02:39+02:00",
+    "source": "user-declared GO for controlled local package import"
+  },
+  "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+  "repository_target": "k501-Information-Space/K501-Proof-Evidence-Runtime",
+  "hash_algorithm": "SHA-256",
+  "inventory_path_count": 76,
+  "scope_note": "Scoped integrity manifest for the complete local project tree after the K501 license-policy overlay. Index inventories all paths; manifest hashes all regular files except itself and the checksum files.",
+  "contents": [
+    {
+      "path": ".gitignore",
+      "bytes": 82,
+      "sha256": "626e630c73ac4219c395f9d56c38a3c1da554f0e5cb36cb8c1af1136876d0ac1"
+    },
+    {
+      "path": "Gateway.json",
+      "bytes": 3547,
+      "sha256": "b9989b7fdb2ad9622d761814c19ea5dd61cb9680e3699e75fc417dcf5ed24734"
+    },
+    {
+      "path": "Gateway.md",
+      "bytes": 1958,
+      "sha256": "80b4e9d661055709818041aead11cf90a1b99c4085efd2eaf3618c8e9bfd24c9"
+    },
+    {
+      "path": "Index.json",
+      "bytes": 15671,
+      "sha256": "d551116a3e996f418159c24d7e8e5097462a6c9c454eb49f64d902108270c408"
+    },
+    {
+      "path": "Index.md",
+      "bytes": 9555,
+      "sha256": "62fc3103ff1aaa73f884055d7085e0d1c77976785867947cc2467cca8a2f89be"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1579,
+      "sha256": "65ba9b312d76e68ed42735d46b4fd35ea58ea7b9c0ff92e028be01fabce5e225"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18112,
+      "sha256": "675181506508b5e2506ab194fdac5b0fa74585342ec05eaaab1ed9e86c06a9b1"
+    },
+    {
+      "path": "LICENSES/FILE_LICENSE_MAP.csv",
+      "bytes": 10078,
+      "sha256": "632e71fe414c1a45aebf8a17891b6c80498c3eadf241230f0b6f3fce1d563e9c"
+    },
+    {
+      "path": "LICENSES/FILE_LICENSE_MAP.md",
+      "bytes": 816,
+      "sha256": "d5673b333d4f0064d00719e513219ddbc99d3b133526b3d70f612cf520d19999"
+    },
+    {
+      "path": "LICENSES/K501_LICENSE_POLICY_V1.0.md",
+      "bytes": 815,
+      "sha256": "745f964b5ab85442ae65ec93ef99b529670c515663356368e7c03f0c702abccc"
+    },
+    {
+      "path": "LICENSES/LICENSE_REVIEW_CHECKLIST.md",
+      "bytes": 881,
+      "sha256": "3d4d83b070220104053631679c70ee227f3a965c93c785172f2922ddd8a41026"
+    },
+    {
+      "path": "LICENSES/LICENSE_TRANSITION_NOTICE.md",
+      "bytes": 666,
+      "sha256": "17d3b8d92173dda569be0ec4365646632ddc0abb57c30545e4c6bfd80f640a60"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "bytes": 1087,
+      "sha256": "31d37ce92982543a5efb22b8c4f200bfabc635303a3fb211e69646c8951edb68"
+    },
+    {
+      "path": "LICENSES/QH256_EXISTING_LICENSE_REFERENCE.md",
+      "bytes": 1308,
+      "sha256": "e4569590b3a6cb7ceb47f2a380d2f579fbd0b1818a312550ee13bf97cc898e17"
+    },
+    {
+      "path": "LICENSES/RIGHTSHOLDER_DECLARATION.md",
+      "bytes": 948,
+      "sha256": "3160439d8361853d13b27d1a21a05e660423580b971d5f9e767850ac43729925"
+    },
+    {
+      "path": "LICENSES/THIRD_PARTY_NOTICES.md",
+      "bytes": 667,
+      "sha256": "7191041e90f08de7c01115b3b269abe075c76d55701c208f1583e44b03847826"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 998,
+      "sha256": "5ee1745c9ca4a6eedcbe66f27503c9c7a0330fb550c6e1655f0627d357a60e81"
+    },
+    {
+      "path": "LICENSE_STATUS.md",
+      "bytes": 1198,
+      "sha256": "022c56722d7e7611a281ae84ffeb603c0c2a09f29ff39034c52c961684e3341f"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 698,
+      "sha256": "1a550bc47b577836feb0cd4c1d038e7d8480de60b123b8836620bda6be9c5205"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3184,
+      "sha256": "5b0364b4562cdf55f7001d23a82777d37d609a210ba84535c63c39619c6dcd2f"
+    },
+    {
+      "path": "docs/OPERATOR_MANUAL.md",
+      "bytes": 1297,
+      "sha256": "2b3653786df8c405eafe62ea03e78e5dc46ec2c127527c821a8c097fb14978f0"
+    },
+    {
+      "path": "docs/PROJECT_BOUNDARY.md",
+      "bytes": 1099,
+      "sha256": "f4a7d6dc6486d5c804e7371c8f6c343fdac69f27559ca963aa0a46f71af81df7"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.json",
+      "bytes": 1732,
+      "sha256": "de164f899f1349a4d8702aea3c068f8604f92bdd72ff8955c38c4d36f5fab0ba"
+    },
+    {
+      "path": "frames/FRAME_000_BOOTSTRAP.md",
+      "bytes": 1213,
+      "sha256": "2fe26ac9792352b2bf57c72cf313ff87ce7b3333817eb35f2607c3d490e281b5"
+    },
+    {
+      "path": "frames/FRAME_001_PACKAGE_IMPORT.json",
+      "bytes": 2403,
+      "sha256": "6c5c0296032bb94ddb84e01f259fc0d82ef1a0659a5d2c21cca5d4e2da8fce6f"
+    },
+    {
+      "path": "frames/FRAME_001_PACKAGE_IMPORT.md",
+      "bytes": 1884,
+      "sha256": "489b69fc79bff982dba5a3a2f2ab5f44f4ed3cedbaece8471ea39a22427a3dc6"
+    },
+    {
+      "path": "metadata/release-manifest.template.json",
+      "bytes": 578,
+      "sha256": "8ca94ad64f92e63a0d5eb5638fa9b492d3b2eab879336cc1e6e6f237776847e0"
+    },
+    {
+      "path": "metadata/repository.json",
+      "bytes": 5642,
+      "sha256": "c9e86a8a2d339af418a4cb481235c90dc4473b03674bc5de7364f8f656140107"
+    },
+    {
+      "path": "metadata/source-archive-records.json",
+      "bytes": 2023,
+      "sha256": "c92303c051116760af28b0e38e54b7f6c0c9795ac7a2afd7ce730320e9744c3a"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/BUILD_VALIDATION_REPORT.md",
+      "bytes": 5642,
+      "sha256": "fe4c80c81d51ac30185591097eaecb0dc429f97e55080fe53b99bd4c02e264c0"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/CHANGELOG.md",
+      "bytes": 623,
+      "sha256": "cbe484afe728070aad6d841f16bb9cb736c57418093d40017ab08b22899d125e"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/LICENSE_STATUS.md",
+      "bytes": 818,
+      "sha256": "9c505a8c05becba944e8873da01637f37f1d5d9465322ba4a1be3bd1ad45a09d"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/Makefile",
+      "bytes": 883,
+      "sha256": "093f3e6118ce361f77ffc10a5e55ce0ad70f1a29b63eeb9871f3a004e72ab02c"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/README.md",
+      "bytes": 4802,
+      "sha256": "e289faad7514b0e1dd6d30be12326fc566d4b694f44f344e5a3a1bbef4f9c22a"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/SHA256SUMS.txt",
+      "bytes": 1762,
+      "sha256": "71e6856d72f902b2e3c70a9f383db256d99a644dd12089571ad31f98ea352cd7"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/TIME_ANCHOR.txt",
+      "bytes": 474,
+      "sha256": "31f12dd5272f186e2b07daee4f06ce517426b2a321fd6f29ae7b50c3e8d5e8fa"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/VERSION",
+      "bytes": 14,
+      "sha256": "ed41d33f787456abe92ea03b820e4c832b1e2b9e6867242eaea03258bae8d119"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/bin/k501-proof-evidence-linux-x86_64",
+      "bytes": 49656,
+      "sha256": "e9a9b46079097b9b72769cd0119218acb76f9ca7faef7d330c0a02f7651ca880"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/ARCHITECTURE.md",
+      "bytes": 4206,
+      "sha256": "fe14dbbf4af8afb29a57e01f2e2271c8ba4a3153d3580df5075dac662203bea1"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/EVIDENCE_PROTOCOL_CONFORMANCE.md",
+      "bytes": 3881,
+      "sha256": "83f27143cf625df4f62a5bc689cadae02e028af18e4a0f63a44814fe5aa7f21c"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/K501_INFORMATION_SPACE.md",
+      "bytes": 4572,
+      "sha256": "84730f35a719614f3fd0b6cfc12b5a51920097ce39e4a0f43ac4c98164bf7fad"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/docs/OPERATIONS.md",
+      "bytes": 2330,
+      "sha256": "3797eda4a62bf0c851e3a868b71d527b0ccec4300ebd0c36638db18552eaf0dc"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/qh256.h",
+      "bytes": 2216,
+      "sha256": "786d7c0dfb58d583d5e10bb55593f382f5355c1af4a80f39da2b576e9e5fa76c"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/include/sha256.h",
+      "bytes": 503,
+      "sha256": "0ec9768ecf3c27939067fdaffee84507c30914e2adfed12ead260ee537c4546f"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_PROTOCOL_SPECIFICATION_v0.1.0.md",
+      "bytes": 12701,
+      "sha256": "3d5d39c7896e3a673ff8a5a3cb3c6acf52d55e4ef1ec72dc9cd4dbcebe603b7f"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/reference/EVIDENCE_RECORD.schema.json",
+      "bytes": 8116,
+      "sha256": "5948e2a839cbd5a1e687b950aeece3bd5d199ec69a3095fbcc51d46dd72a19f6"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/k501_proof_evidence.c",
+      "bytes": 35129,
+      "sha256": "459a9c01efe73255ca7675d56f52deab50c852c90919b6836c97f39f32540572"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/qh256.c",
+      "bytes": 4425,
+      "sha256": "5414029d98fafe098cb768f2a4f4aca2e8026fe66b50f5e6c10dc0f2fb1fcf3e"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/src/sha256.c",
+      "bytes": 4324,
+      "sha256": "42d4d57d09cdbab2b77110ee2752d8efa1c6f271fbbf37dc6ce01e599ffcbf12"
+    },
+    {
+      "path": "payload/K501_Proof_Evidence_Runtime_Alpha1_C/tests/test_runtime.c",
+      "bytes": 9245,
+      "sha256": "56641f26354ebccd05129f59c84443ae2584077936ce692e1a529d827f6c9f9d"
+    },
+    {
+      "path": "references/REFERENCES.md",
+      "bytes": 1259,
+      "sha256": "af2f573707366ce623a4c8dbfdf66c12244f4f2d2090061371f3e0238074fb49"
+    },
+    {
+      "path": "releases/RELEASE_POLICY.md",
+      "bytes": 418,
+      "sha256": "6ac50c76549d97c7df367121d12221805f2528fd2f76864f38a05ed916d2a0f2"
+    },
+    {
+      "path": "runs/run.schema.json",
+      "bytes": 2565,
+      "sha256": "eaddeb3e73ae2b05f4155088f4b4f681e85b44bd2593980c87e7102db7f4a132"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.json",
+      "bytes": 1056,
+      "sha256": "491edae5a1c7987724f10f0a2a039a2b8a6d2217e4f0302c06e04539e6042e9f"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.1.md",
+      "bytes": 1833,
+      "sha256": "929f84b81a7408a17d3d22819036f92c1a9928412ec004bfff54e26a594ff8a2"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.json",
+      "bytes": 2518,
+      "sha256": "edebfed15836ee5d8e6f9eb7a0504dd6dc4789cec476fceba7d87490a90b8d88"
+    },
+    {
+      "path": "specifications/K501_INFORMATION_SPACE_STRUCTURE_v0.2.md",
+      "bytes": 2731,
+      "sha256": "f2d78f841b58bf7ed28865afc5181f6cdef13177bf399b5834014e597c4cadc8"
+    }
+  ]
+}

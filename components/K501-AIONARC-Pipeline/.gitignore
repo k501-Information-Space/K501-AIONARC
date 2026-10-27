@@ -1,0 +1,8 @@
+
+# K501 controlled repository defaults
+.DS_Store
+*.tmp
+*.log
+/build/
+/dist/
+/tmp/

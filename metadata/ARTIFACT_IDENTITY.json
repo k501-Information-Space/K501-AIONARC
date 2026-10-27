@@ -1,0 +1,42 @@
+{
+  "schema_id": "K501_INTEGRATED_ARTIFACT/1.0",
+  "artifact_id": "K501-AIONARC-INTEGRATED-PIPELINE-PROOF-RUNTIME",
+  "artifact_name": "K501 AIONARC Integrated Pipeline & Proof Runtime",
+  "version": "3.5.0",
+  "release_intent": "STABLE",
+  "candidate_status": "OWNER_DECLARED_CANONICAL_LOCAL_ARTIFACT",
+  "canonicality": "CANONICAL_LOCAL_BY_OWNER_DECLARATION; PUBLIC_GITHUB_CANONICALITY_NOT_ESTABLISHED",
+  "user_time_anchor": {
+    "unix_epoch": 1793046600,
+    "utc": "2026-10-26T20:30:00Z",
+    "europe_berlin": "2026-10-26T21:30:00+01:00",
+    "source": "direct owner declaration of licensing and canonical status"
+  },
+  "components": [
+    {
+      "project_id": "K501-AIONARC-PIPELINE",
+      "local_path": "components/K501-AIONARC-Pipeline",
+      "component_version": "3.0.0-alpha.1",
+      "source_archive_sha256": "f14e203ad7bfa466d118780b06b69e59198e2fd917cb0e7e82222b83557df607",
+      "alternate_archive_sha256": "0e124a4786e07dd84936f2ec1d4246a56ed0a057711766d8ced78ab3724e5821"
+    },
+    {
+      "project_id": "K501-PROOF-EVIDENCE-RUNTIME",
+      "local_path": "components/K501-Proof-Evidence-Runtime",
+      "component_version": "0.1.0-alpha.1",
+      "source_archive_sha256": "c48fd8863b3b5b8889f46af1efbc768281490b60ab4433700b1331793dfcf435"
+    }
+  ],
+  "integration_contract": "specifications/INTEGRATION_CONTRACT_v1.0.json",
+  "system_specification": "specifications/SYSTEM_SPECIFICATION_v3.5.json",
+  "mapping_profile": "specifications/QH256_MAPPING_PROFILE_v3.5.json",
+  "owner_rights_attestation": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+  "license_policy": {
+    "K501-authored-software-and-code": "MIT",
+    "K501-authored-documentation-and-descriptive-material": "CC-BY-4.0"
+  },
+  "license_clearance": "OWNER_RATIFIED_FOR_MAPPED_K501_MATERIAL; UPSTREAM_NOTICES_PRESERVED",
+  "redistribution_clearance": "OWNER_AUTHORIZED_FOR_MAPPED_SCOPE",
+  "github_publication": "NOT_PERFORMED",
+  "zenodo_publication": "DRAFT_ONLY_NOT_UPLOADED"
+}
