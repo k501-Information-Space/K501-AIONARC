@@ -1,14 +1,21 @@
 # K501 AIONARC Integrated Pipeline & Proof Runtime
 
-**Selected artifact name:** K501 AIONARC Integrated Pipeline & Proof Runtime  
 **Version:** `3.5.0`  
-**Release intent:** Stable  
-**State:** canonical local aggregate by owner declaration; GitHub publication not performed  
-**User time anchor:** Unix `1793046600` — 2026-10-26 20:30:00 UTC / 21:30:00 CET
+**Release status:** Published stable release  
+**GitHub release:** https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0  
+**Zenodo record:** https://zenodo.org/records/23701613  
+**DOI:** https://doi.org/10.5281/zenodo.23701613  
+**Tagged source commit:** `946836c3d160ce25d38d5456baa8ed586a1ecd05`  
+**Release archive:** `K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip`  
+**Release archive SHA-256:** `774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223`
 
-This candidate assembles the existing K501 AIONARC Pipeline and K501 Proof/Evidence Runtime as one versioned, buildable source artifact. The two upstream project trees are retained intact under `components/`; the top-level build coordinates them and runs the recorder integration test against the exact pipeline executable built in that tree.
+The release archive was downloaded and checked locally: its size was 618,739 bytes, its SHA-256 matched the digest reported by the public GitHub release, and the ZIP integrity test passed.
 
-The owner ratified MIT for K501-authored software/code and CC BY 4.0 for K501-authored documentation/descriptive material at Unix time `1793046600`. The per-file map and owner declaration are in `LICENSES/`. Embedded payloads and historical component status records remain unchanged; the aggregate ratification applies to this integrated package. The local artifact is owner-designated canonical in this workspace; it is not a published GitHub release.
+**Release immutability:** This README status correction is intended as a separate follow-up commit on `main`. It does not change the `v3.5.0` tag, its tagged source commit, or the already published release ZIP. The README contained inside that archive remains as released.
+
+This release integrates the K501 AIONARC Pipeline and K501 Proof/Evidence Runtime as one versioned, buildable source artifact. The two component trees are retained under `components/`; the top-level build coordinates them and runs the recorder integration test against the exact pipeline executable built in that tree.
+
+The owner ratified MIT for K501-authored software/code and CC BY 4.0 for K501-authored documentation/descriptive material at Unix time `1793046600`. The per-file map and owner declaration are in `LICENSES/`. Embedded payloads and historical component status records remain unchanged; the aggregate ratification applies to this integrated package.
 
 The aggregate version `3.5.0` is an integration-package identity. It does not rewrite the embedded component identities: AIONARC remains `3.0.0-alpha.1`, and Proof/Evidence Runtime remains `0.1.0-alpha.1`. See `metadata/ARTIFACT_IDENTITY.json` and `specifications/SYSTEM_SPECIFICATION_v3.5.json` for the bound source archive digests and scope.
 
@@ -37,6 +44,6 @@ The detailed boundaries and limitations are preserved in each component’s orig
 
 ## Release and rights state
 
-The owner has ratified the aggregate file-license map and authorized distribution of mapped K501-owned material under MIT/CC BY 4.0. Third-party and QH256 notices remain applicable. The local canonical designation is recorded in `metadata/ARTIFACT_IDENTITY.json`; it does not imply GitHub or Zenodo publication. The target component repositories were not found through the configured GitHub connection, and no aggregate destination is defined. GitHub publication and Zenodo publication gates therefore remain open.
+The aggregate v3.5.0 release is published on GitHub and deposited on Zenodo at the links above. The per-file license map and owner declaration remain in `LICENSES/`. Third-party and QH256 notices remain applicable. Future source or documentation changes should be recorded in separate commits and, when appropriate, a separately versioned release; they do not retroactively change the published v3.5.0 archive.
 
 See [License Scope](LICENSE_SCOPE.md), [Owner Ratification](LICENSES/RIGHTSHOLDER_ATTESTATION.md), [Dynamic Gate Status](metadata/GATE_STATUS.json), and [Validation Report](validation/VALIDATION_REPORT.md).
