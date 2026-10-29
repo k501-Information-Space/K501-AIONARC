@@ -11,7 +11,7 @@
 
 The release archive was downloaded and checked locally: its size was 618,739 bytes, its SHA-256 matched the digest reported by the public GitHub release, and the ZIP integrity test passed.
 
-**Release immutability:** This README status correction is intended as a separate follow-up commit on `main`. It does not change the `v3.5.0` tag, its tagged source commit, or the already published release ZIP. The README contained inside that archive remains as released.
+**Release immutability:** This README status correction is a separate follow-up commit on `main`. It does not change the `v3.5.0` tag, its tagged source commit, or the already published release ZIP. The README contained inside that archive remains as released.
 
 This release integrates the K501 AIONARC Pipeline and K501 Proof/Evidence Runtime as one versioned, buildable source artifact. The two component trees are retained under `components/`; the top-level build coordinates them and runs the recorder integration test against the exact pipeline executable built in that tree.
 
