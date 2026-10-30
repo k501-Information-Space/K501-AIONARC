@@ -2,6 +2,8 @@ path,kind,spdx,status,basis,scope_note
 .gitignore,software_or_build_code,MIT,OWNER_DECLARED,metadata/RIGHTSHOLDER_ATTESTATION.json,Owner declaration 1793046600.
 CHANGELOG.md,documentation_specification_or_metadata,CC-BY-4.0,OWNER_DECLARED,metadata/RIGHTSHOLDER_ATTESTATION.json,Owner declaration 1793046600; any third-party material remains separately scoped.
 CITATION.cff,documentation_specification_or_metadata,CC-BY-4.0,OWNER_DECLARED,metadata/RIGHTSHOLDER_ATTESTATION.json,Owner declaration 1793046600; any third-party material remains separately scoped.
+Gateway.json,descriptive_metadata,NOASSERTION,FACTUAL_METADATA,FACTUAL_METADATA,Repository navigation metadata; no copyright ownership or license inferred.
+Gateway.md,descriptive_metadata,NOASSERTION,FACTUAL_METADATA,FACTUAL_METADATA,Repository navigation metadata; no copyright ownership or license inferred.
 Index.json,integrity_or_index_record,NOASSERTION,INTEGRITY_METADATA,INTEGRITY_METADATA,Generated index or integrity data; no license assertion over factual digests.
 Index.md,integrity_or_index_record,NOASSERTION,INTEGRITY_METADATA,INTEGRITY_METADATA,Generated index or integrity data; no license assertion over factual digests.
 LICENSE,documentation_specification_or_metadata,CC-BY-4.0,OWNER_DECLARED,metadata/RIGHTSHOLDER_ATTESTATION.json,Owner declaration 1793046600; any third-party material remains separately scoped.
