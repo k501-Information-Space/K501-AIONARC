@@ -1,16 +1,18 @@
 # Aggregate Index — K501 AIONARC Integrated Pipeline & Proof Runtime 3.5.0
 
 **Classification:** derived navigation and byte inventory; not a semantic proof.  
-**Entries:** 291 regular files (generated build directories and recursive integrity files excluded).
+**Entries:** 293 regular files (generated build directories and recursive integrity files excluded).
 
 | Path | Bytes | SHA-256 |
 |---|---:|---|
 | `.gitignore` | 195 | `786fb3bf921a720dc96f9127c3e97dc6d301781c3356d47339d17c2191cf27ff` |
 | `CHANGELOG.md` | 1402 | `54f9f0e727d36e35c825002044042178e82a4c2728606a5e92724f3e0c767e61` |
 | `CITATION.cff` | 662 | `134ee8dda4bc8beb6369eb0ef577da509b00db1ac827bcb7157d0134ab7bd897` |
+| `Gateway.json` | 5744 | `a33c2a52758e500771f4d5f2d241d3b1a2d72ec7b027e4443f2244aa770b905c` |
+| `Gateway.md` | 4197 | `a89f14dcfcefab706dc171897079c54a10ac5c9a390798d231511ecb2773d501` |
 | `LICENSE` | 1334 | `e900d717ffb148018af97a07caf38078afbe1cf16efc09beb978cbd5c76e6335` |
-| `LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv` | 67471 | `03546a87df4a4d974be0e180fdeca190a788fed2cd74197fd236dd26b331bcef` |
-| `LICENSES/AGGREGATE_FILE_LICENSE_MAP.json` | 103920 | `f2d0b9df3a9f0815e1ae6bea7e284f43616edeaeb707a994cb44a9cc4b336252` |
+| `LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv` | 67783 | `8bc1ed2969fe391ec69826092d31560ab08d0541c5e46f5258c3e07c92ec894c` |
+| `LICENSES/AGGREGATE_FILE_LICENSE_MAP.json` | 104476 | `720f941ad94010a058c14ea410cf625e41bd6b072fb6e7de9758083f6be891ec` |
 | `LICENSES/CC-BY-4.0.txt` | 18112 | `675181506508b5e2506ab194fdac5b0fa74585342ec05eaaab1ed9e86c06a9b1` |
 | `LICENSES/MIT.txt` | 1078 | `56e6d389ad4fad938d2d21877854de011775ddd9f90874d08f2622605bffc0c7` |
 | `LICENSES/RIGHTSHOLDER_ATTESTATION.md` | 1462 | `e7b286422d3d90ec9cff92b32770c88887042d769891594e85719f12da69956e` |
@@ -18,7 +20,7 @@
 | `LICENSE_STATUS.md` | 1146 | `aa6c14d6d943b8baf3046bfa0b2d19c1823efa4db13276fd88314a29b69e1d70` |
 | `Makefile` | 1298 | `b71e63f6b7f0e43847e429d2b672ccfa6d3d3eced071d44bd839957495bb5be2` |
 | `NOTICE` | 555 | `1ca034a88764a035546df19a3e576eb7d81d319a034890e9e2d0259cea235851` |
-| `README.md` | 4102 | `8d084c05b86dc42a8f646a01e537b6cd2c97788faf82f357b06435fa53126ea2` |
+| `README.md` | 4989 | `1647ba8f4af991b7f07c0e21c364baff09ccaa8e8112cc0fdd2e1c25f6d5df4c` |
 | `STATUS.md` | 1408 | `b6fdc70c4d685ecfb9bb9f6e46ac50f449fb62802704d1f9dcb57c137e1e3b75` |
 | `VERSION` | 6 | `76120c1f2c4311c2154c22a6b58e00e411e0ebe76afae0daf608d9196c61f114` |
 | `components/K501-AIONARC-Pipeline/.gitignore` | 82 | `626e630c73ac4219c395f9d56c38a3c1da554f0e5cb36cb8c1af1136876d0ac1` |
@@ -275,7 +277,7 @@
 | `schemas/release-gate-profile.schema.json` | 1259 | `ffd1685d7348a9df184676338b1928909d086e29d66f2886fd7122ea4d175315` |
 | `schemas/system-specification.schema.json` | 1250 | `47a7ce88f98a30314b0c19db50fe7747f98100fc8af4c854a87d178bfaff5292` |
 | `schemas/zenodo-metadata-draft.schema.json` | 1541 | `5424184a1688bd090725bf397e6cc6084257a9075356705ce70f60b0c8e2c5c7` |
-| `scripts/build_aggregate_license_map.py` | 7161 | `ec40c24f2ab2a61ecceeda76156750f67cfa7ea9f7023e4f71e0e47de1083786` |
+| `scripts/build_aggregate_license_map.py` | 7359 | `f2632bd2af6771d4fd109043fdb17d4249f3e63e05eb84a4756ee1a319d37671` |
 | `scripts/create_candidate_archive.py` | 1648 | `b18b7d001b10bab04d255f5e880f8fbe97532b4891696fb644b5f35e009b46a0` |
 | `scripts/evaluate_gates.py` | 1413 | `288e09f863d63080dff21f271e71ed2c6b1930eafb928ea5a4267785aeecea26` |
 | `scripts/host_acceptance.py` | 2370 | `773c7aca7117fda97ca9eb1c73280c2815cad4888886f99b995c1eae05fb3f17` |
