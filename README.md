@@ -17,6 +17,12 @@ This release integrates the K501 AIONARC Pipeline and K501 Proof/Evidence Runtim
 
 The owner ratified MIT for K501-authored software/code and CC BY 4.0 for K501-authored documentation/descriptive material at Unix time `1793046600`. The per-file map and owner declaration are in `LICENSES/`. Embedded payloads and historical component status records remain unchanged; the aggregate ratification applies to this integrated package.
 
+## Repository navigation
+
+- [Gateway.md](Gateway.md) / [Gateway.json](Gateway.json) — root human and machine navigation, release boundaries and source-time status notes.
+- [Index.md](Index.md) / [Index.json](Index.json) — derived aggregate path and byte inventory, not semantic proof.
+- [MANIFEST.json](MANIFEST.json), [SHA256SUMS.txt](SHA256SUMS.txt), and [SHA256SUMS.txt.sha256](SHA256SUMS.txt.sha256) — declared integrity records.
+
 The aggregate version `3.5.0` is an integration-package identity. It does not rewrite the embedded component identities: AIONARC remains `3.0.0-alpha.1`, and Proof/Evidence Runtime remains `0.1.0-alpha.1`. See `metadata/ARTIFACT_IDENTITY.json` and `specifications/SYSTEM_SPECIFICATION_v3.5.json` for the bound source archive digests and scope.
 
 ## Build and verify
