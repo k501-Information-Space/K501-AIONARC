@@ -69,6 +69,8 @@ def classify(rel: str):
         return "software_or_build_code", "MIT", "OWNER_DECLARED", "Owner declaration 1793046600."
     if rel.startswith("LICENSES/") and rel.endswith(("MIT.txt", "CC-BY-4.0.txt")):
         return "standard_license_text", "NOASSERTION", "PRESERVED_STANDARD_TEXT", "Standard license text/reference; no ownership claim."
+    if rel in {"Gateway.md", "Gateway.json"}:
+        return "descriptive_metadata", "NOASSERTION", "FACTUAL_METADATA", "Repository navigation metadata; no copyright ownership or license inferred."
     if rel == "VERSION":
         return "version_fact", "NOASSERTION", "FACTUAL_METADATA", "Version identifier."
     if rel.startswith(("docs/", "specifications/", "schemas/", "validation/", "zenodo/", "metadata/", "LICENSES/")) or rel in {"README.md", "CHANGELOG.md", "CITATION.cff", "NOTICE", "LICENSE", "LICENSE_SCOPE.md", "LICENSE_STATUS.md", "STATUS.md"}:
