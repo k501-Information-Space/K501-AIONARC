@@ -1,0 +1,169 @@
+{
+  "schema_id": "K501_REPOSITORY_GATEWAY/0.1.0-draft",
+  "gateway_id": "K501-K501-AIONARC-ROOT-GATEWAY",
+  "status": "CURRENT_REPOSITORY_NAVIGATION_DRAFT",
+  "canonical": false,
+  "repository": {
+    "owner": "k501-Information-Space",
+    "name": "K501-AIONARC",
+    "full_name": "k501-Information-Space/K501-AIONARC",
+    "url": "https://github.com/k501-Information-Space/K501-AIONARC",
+    "default_branch": "main",
+    "role": "INTEGRATED_PIPELINE_AND_PROOF_RUNTIME",
+    "visibility": "PUBLIC"
+  },
+  "observation": {
+    "time_anchor": {
+      "unix_epoch": 1793389236,
+      "utc": "2026-10-30T19:40:36Z",
+      "europe_berlin": "2026-10-30T20:40:36+01:00",
+      "source": "USER_SUPPLIED_OPERATOR_TIME_ANCHOR",
+      "system_time_independently_verified": false
+    },
+    "observed_head_commit": "dd66b319f92c928f543cf0c604fe149577b350ef",
+    "method": "GitHub repository commit search and read-only source fetch",
+    "atomic_snapshot": false,
+    "scope": "Root README, aggregate index, manifest, license map, checksum sidecar and selected generator/contract sources."
+  },
+  "entrypoints": {
+    "default_human": "README.md",
+    "human_gateway": "Gateway.md",
+    "machine_gateway": "Gateway.json",
+    "human_index": "Index.md",
+    "machine_index": "Index.json",
+    "manifest": "MANIFEST.json",
+    "checksums": [
+      "SHA256SUMS.txt",
+      "SHA256SUMS.txt.sha256"
+    ]
+  },
+  "routes": [
+    {
+      "route_id": "start",
+      "question": "Where does a human start?",
+      "target": "README.md",
+      "next": [
+        "Gateway.md",
+        "Gateway.json",
+        "Index.md",
+        "Index.json"
+      ]
+    },
+    {
+      "route_id": "release",
+      "question": "Where is the published aggregate v3.5.0 release?",
+      "target": "README.md",
+      "related": [
+        "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+        "https://zenodo.org/records/23701613"
+      ]
+    },
+    {
+      "route_id": "pipeline",
+      "question": "Where is the AIONARC Pipeline component?",
+      "target": "components/K501-AIONARC-Pipeline/README.md",
+      "related": [
+        "components/K501-AIONARC-Pipeline/Gateway.md",
+        "components/K501-AIONARC-Pipeline/Gateway.json"
+      ]
+    },
+    {
+      "route_id": "proof-runtime",
+      "question": "Where is the Proof/Evidence Runtime component?",
+      "target": "components/K501-Proof-Evidence-Runtime/README.md"
+    },
+    {
+      "route_id": "historical-status",
+      "question": "Where are source-time gate and validation records?",
+      "target": "STATUS.md",
+      "related": [
+        "metadata/GATE_STATUS.json",
+        "validation/VALIDATION_REPORT.md"
+      ],
+      "status": "PRESERVE_SOURCE_TIME_SCOPE"
+    },
+    {
+      "route_id": "integrity",
+      "question": "Where are the aggregate path, manifest and checksum records?",
+      "target": "Index.json",
+      "related": [
+        "Index.md",
+        "MANIFEST.json",
+        "SHA256SUMS.txt",
+        "SHA256SUMS.txt.sha256"
+      ]
+    }
+  ],
+  "release": {
+    "aggregate_version": "3.5.0",
+    "release_status": "PUBLISHED_STABLE",
+    "github_release": "https://github.com/k501-Information-Space/K501-AIONARC/releases/tag/v3.5.0",
+    "zenodo_record": "https://zenodo.org/records/23701613",
+    "doi": "10.5281/zenodo.23701613",
+    "tagged_source_commit": "946836c3d160ce25d38d5456baa8ed586a1ecd05",
+    "release_archive": "K501-AIONARC-Integrated-Pipeline-and-Proof-Runtime_v3.5.0_Stable.zip",
+    "release_archive_sha256": "774cbf18d4674b657bafc859cda4b8b2a2dddcb2a283f70925510d4ae2d85223",
+    "immutable_tag_and_archive": true
+  },
+  "embedded_component_identities": {
+    "AIONARC_PIPELINE": "3.0.0-alpha.1",
+    "PROOF_EVIDENCE_RUNTIME": "0.1.0-alpha.1",
+    "rule": "Aggregate integration version does not rewrite embedded component identities."
+  },
+  "authority_boundaries": {
+    "gateway": "NAVIGATION_ONLY",
+    "index": "DERIVED_NAVIGATION_AND_BYTE_INVENTORY_NOT_SEMANTIC_PROOF",
+    "repository": "PUBLISHED_INTEGRATED_SOURCE_ARTIFACT_WITH_COMPONENT_SCOPED_IDENTITIES",
+    "evidence": "Recorded process results do not decide project gates.",
+    "historical_status": "Preserve source-time claims; later README/release state does not rewrite old records."
+  },
+  "integrity": {
+    "manifest": "MANIFEST.json",
+    "index": [
+      "Index.md",
+      "Index.json"
+    ],
+    "checksum_files": [
+      "SHA256SUMS.txt",
+      "SHA256SUMS.txt.sha256"
+    ],
+    "documented_verification": [
+      "make test",
+      "make verify"
+    ],
+    "execution_claim": "This Gateway creation does not claim either command was run."
+  },
+  "rights_boundary": {
+    "owner_declaration": "metadata/RIGHTSHOLDER_ATTESTATION.json",
+    "per_file_map": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json",
+    "declaration_time_anchor": 1793046600,
+    "third_party_rule": "Preserve embedded component and third-party notices; no new blanket rights assertion."
+  },
+  "related_repositories": {
+    "QH256": {
+      "url": "https://github.com/k501-Information-Space/QH256",
+      "role": "SEPARATE_FOUR_STATE_MODEL_AND_INFORMATION_SPACE_STRUCTURE_REFERENCE"
+    },
+    "AIONARC_CHANNEL": {
+      "url": "https://github.com/k501-Information-Space/AIONARC_CHANNEL",
+      "role": "APPEND_ONLY_PUBLIC_SIGNAL_LAYER"
+    },
+    "eArc": {
+      "url": "https://github.com/k501-Information-Space/eArc",
+      "role": "NEUTRAL_DEVELOPMENT_ARCHIVE",
+      "repository_authority": "NONE",
+      "canonical_authority": "NONE"
+    }
+  },
+  "invariants": [
+    "PROOF_BEFORE_STATE",
+    "RECONSTRUCT_BEFORE_EXTEND",
+    "OBSERVE_BEFORE_MUTATE",
+    "APPEND_ONLY",
+    "NO_DRIFT",
+    "NO_INTERPRETATION",
+    "NO_PHANTOM",
+    "UNKNOWN_BY_DEFAULT",
+    "DENSIFICATION_WITHOUT_ERASURE"
+  ]
+}

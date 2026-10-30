@@ -4,7 +4,7 @@
   "artifact_version": "3.5.0",
   "attestation": "metadata/RIGHTSHOLDER_ATTESTATION.json",
   "default_rule": "NOASSERTION; every distributable path is explicitly classified; preserve upstream notices and terms.",
-  "entry_count": 296,
+  "entry_count": 298,
   "entries": [
     {
       "path": ".gitignore",
@@ -29,6 +29,22 @@
       "status": "OWNER_DECLARED",
       "basis": "metadata/RIGHTSHOLDER_ATTESTATION.json",
       "scope_note": "Owner declaration 1793046600; any third-party material remains separately scoped."
+    },
+    {
+      "path": "Gateway.json",
+      "kind": "descriptive_metadata",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Repository navigation metadata; no copyright ownership or license inferred."
+    },
+    {
+      "path": "Gateway.md",
+      "kind": "descriptive_metadata",
+      "spdx": "NOASSERTION",
+      "status": "FACTUAL_METADATA",
+      "basis": "FACTUAL_METADATA",
+      "scope_note": "Repository navigation metadata; no copyright ownership or license inferred."
     },
     {
       "path": "Index.json",

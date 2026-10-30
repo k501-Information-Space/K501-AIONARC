@@ -18,19 +18,29 @@
       "sha256": "134ee8dda4bc8beb6369eb0ef577da509b00db1ac827bcb7157d0134ab7bd897"
     },
     {
+      "bytes": 5744,
+      "path": "Gateway.json",
+      "sha256": "a33c2a52758e500771f4d5f2d241d3b1a2d72ec7b027e4443f2244aa770b905c"
+    },
+    {
+      "bytes": 4197,
+      "path": "Gateway.md",
+      "sha256": "a89f14dcfcefab706dc171897079c54a10ac5c9a390798d231511ecb2773d501"
+    },
+    {
       "bytes": 1334,
       "path": "LICENSE",
       "sha256": "e900d717ffb148018af97a07caf38078afbe1cf16efc09beb978cbd5c76e6335"
     },
     {
-      "bytes": 67471,
+      "bytes": 67783,
       "path": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.csv",
-      "sha256": "03546a87df4a4d974be0e180fdeca190a788fed2cd74197fd236dd26b331bcef"
+      "sha256": "8bc1ed2969fe391ec69826092d31560ab08d0541c5e46f5258c3e07c92ec894c"
     },
     {
-      "bytes": 103920,
+      "bytes": 104476,
       "path": "LICENSES/AGGREGATE_FILE_LICENSE_MAP.json",
-      "sha256": "f2d0b9df3a9f0815e1ae6bea7e284f43616edeaeb707a994cb44a9cc4b336252"
+      "sha256": "720f941ad94010a058c14ea410cf625e41bd6b072fb6e7de9758083f6be891ec"
     },
     {
       "bytes": 18112,
@@ -68,9 +78,9 @@
       "sha256": "1ca034a88764a035546df19a3e576eb7d81d319a034890e9e2d0259cea235851"
     },
     {
-      "bytes": 4102,
+      "bytes": 4989,
       "path": "README.md",
-      "sha256": "8d084c05b86dc42a8f646a01e537b6cd2c97788faf82f357b06435fa53126ea2"
+      "sha256": "1647ba8f4af991b7f07c0e21c364baff09ccaa8e8112cc0fdd2e1c25f6d5df4c"
     },
     {
       "bytes": 1408,
@@ -1353,9 +1363,9 @@
       "sha256": "5424184a1688bd090725bf397e6cc6084257a9075356705ce70f60b0c8e2c5c7"
     },
     {
-      "bytes": 7161,
+      "bytes": 7359,
       "path": "scripts/build_aggregate_license_map.py",
-      "sha256": "ec40c24f2ab2a61ecceeda76156750f67cfa7ea9f7023e4f71e0e47de1083786"
+      "sha256": "f2632bd2af6771d4fd109043fdb17d4249f3e63e05eb84a4756ee1a319d37671"
     },
     {
       "bytes": 1648,
